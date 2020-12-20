@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description: java类作用描述
+ * @Description: 产品管理表
  * @Author: dongzhou
  * @CreateDate: 2020/12/20 13:02
  */
@@ -36,8 +36,6 @@ public class CategoryAdminVO extends AbstractValueObject {
     @Column(length = 128)
     private String categoryName;
 
-    @Column(length = 10)
-    private String state;
 
     @Column(length = 1)
     private String isDelete;
@@ -47,6 +45,13 @@ public class CategoryAdminVO extends AbstractValueObject {
 
     @Column(length = 32)
     private String operatorId;
+    @Column(length = 1)
+    private String billStatus;
+    @Column(length = 50)
+    private String type;
+
+    @Column(length = 512)
+    private String memo;
 
     @Override
     public String getPrimaryKey() {

@@ -26,8 +26,8 @@
 			</div>
 			<jsp:include page="../../part/data-edit-colunm.jsp"/>
 			<div class="row cl editDiv ed_100 ed_100_left">
-				<label class="form-label col-xs-4 col-sm-3-msun"><span class="c-red">*</span>网站权限菜单：</label>
-				<!-- checkboxStart -->
+				<!-- <label class="form-label col-xs-4 col-sm-3-msun"><span class="c-red">*</span>网站权限菜单：</label>
+				checkboxStart -->
 				<div class = "formControls col-xs-5 col-sm-7" style="padding-left: 0px;">
 					<div class="">
 					

@@ -99,6 +99,7 @@ META-INF\spring-configuration-metadata.json
 com\jadmin\util\file\FileUtil$1.class
 com\jadmin\modules\controller\base\aop\LogService.class
 com\jadmin\modules\annotation\list\AdminPageNoButton.class
+com\jadmin\vo\entity\base\SpecifAdminVO.class
 com\jadmin\vo\entity\base\DictinfoVO.class
 com\jadmin\vo\fundation\controller\ReportCol.class
 com\jadmin\modules\controller\tag\SelectTag.class
@@ -106,6 +107,7 @@ com\jadmin\controller\admin\base\system\SysTaskController.class
 com\jadmin\modules\dao\base\BaseBusinessDao.class
 com\jadmin\util\UserAgentUtil.class
 com\jadmin\vo\fundation\base\QueryArgVO.class
+com\jadmin\controller\admin\base\productManagement\SpecificationsAdminContraroller.class
 com\jadmin\vo\entity\base\UserVO.class
 com\jadmin\util\file\FileList.class
 com\jadmin\modules\controller\tag\GetTreeJson.class

@@ -11,12 +11,12 @@ package com.jadmin.vo.enumtype;
 public enum AdminPageMenu {
 	
 	system("", "&#xe653;"), // 一级菜单
-
+    categoryCenter(system, "产品管理", "&#xe62e;"),
 	userCenter(system, "用户管理", "&#xe62b;"),
-	
 	baseCenter(system, "系统管理", "&#xe62e;"),
+    ;
 
-    categoryCenter(system, "产品管理", "&#xe62e;");
+
 	
     /** 一级菜单 */
     private AdminPageMenu menu;
