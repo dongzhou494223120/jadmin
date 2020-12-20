@@ -21,7 +21,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/specif") // 定义前台url访问的基础路径
-@TableHql(value = "isDelete = 0",orderBy = "operateTime desc")
+@TableHql(value = "isDelete = 0", orderBy = "operateTime desc")
 @SearchMode()
 @DeleteMode(DeleteMode.DELETE) // 定义删除策略为真删
 @AdminPage(menu = AdminPageMenu.categoryCenter, name = "规格管理") // 声明后台管理页面左边的菜单属性，用来控制权限
@@ -33,7 +33,7 @@ public class SpecificationsAdminContraroller extends CommonListController<Catego
     @TableColumn
     private String seq;
 
-    @FormColunm(value = "规格",selectStyle = "tree")
+    @FormColunm(value = "规格", selectStyle = "tree")
     @TableColumn(search = true)
     private String categoryName;
 
@@ -42,7 +42,7 @@ public class SpecificationsAdminContraroller extends CommonListController<Catego
     @InitDefaultColunm
     public String operatorId;
 
-    @FormColunm(value = "状态",selectCode = "billStatus")
+    @FormColunm(value = "状态", selectCode = "billStatus")
     @TableColumn(search = true)
     private String billStatus;
 
@@ -54,12 +54,19 @@ public class SpecificationsAdminContraroller extends CommonListController<Catego
     public boolean beforeDelete(List<String> ids, HttpServletRequest request) {
         return true;
     }
+
     @Override
     public void beforeEditSave(CategoryAdminVO vo, HttpServletRequest request) {
         String userId = getClientENV(request.getSession()).getCurUser().getName();
         vo.setIsDelete("0");
         vo.setOperatorId(userId);
-        vo.setType("CATEGORY");
+        vo.setType("SPECIF");
         vo.setOperateTime(getTs());
+    }
+
+    @Override
+    public String getHqlWhere(HttpServletRequest request) {
+        return "type = 'SPECIF'";
+
     }
 }

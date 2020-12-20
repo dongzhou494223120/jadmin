@@ -55,9 +55,6 @@ public class CategoryAdminContraroller extends CommonListController<CategoryAdmi
     @TableColumn(search = true)
     private String memo;
 
-    @FormColunm(value = "类型")
-    @TableColumn
-    private String type;
 
     @Override
     public boolean beforeDelete(List<String> ids, HttpServletRequest request) {

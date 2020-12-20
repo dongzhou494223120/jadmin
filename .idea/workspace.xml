@@ -7,34 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05d5412-2735-42d8-9b0c-1b86a2678dd0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminContraroller.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SpecifAdminVO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/specif/data-edit.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/specif/data-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/specif/data-show.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/enumtype/AdminPageMenu.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/enumtype/AdminPageMenu.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/category/data-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/category/data-edit.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT.war.original" afterPath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT.war.original" />
-      <change beforePath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/META-INF/spring-configuration-metadata.json" afterPath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/META-INF/spring-configuration-metadata.json" />
-      <change beforePath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/application.yml" afterPath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.class" afterPath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.class" />
-      <change beforePath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" afterPath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" />
-      <change beforePath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/com/jadmin/vo/entity/base/CategoryAdminVO.class" afterPath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/com/jadmin/vo/entity/base/CategoryAdminVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/com/jadmin/vo/enumtype/AdminPageMenu.class" afterPath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/classes/com/jadmin/vo/enumtype/AdminPageMenu.class" />
-      <change beforePath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/jsp/admin/business/category/data-edit.jsp" afterPath="$PROJECT_DIR$/target/JAdmin-0.0.1-SNAPSHOT/WEB-INF/jsp/admin/business/category/data-edit.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/CategoryAdminVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/CategoryAdminVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/enumtype/AdminPageMenu.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/enumtype/AdminPageMenu.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminContraroller.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminContraroller.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +36,7 @@
       <file leaf-file-name="CommonListController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39039">
+            <state relative-caret-position="330">
               <caret line="1268" column="0" lean-forward="false" selection-start-line="1268" selection-start-column="0" selection-end-line="1268" selection-end-column="0" />
               <folding>
                 <element signature="e#4452#4453#0" expanded="true" />
@@ -76,6 +51,16 @@
                 <element signature="e#57143#57144#0" expanded="true" />
                 <marker date="1608447684001" expanded="true" signature="12237:12409" ph="update missingValue... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecificationsAdminContraroller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminContraroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,38 +127,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpecifAdminVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SpecifAdminVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminPageMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/enumtype/AdminPageMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryAdminContraroller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CategoryAdminContraroller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+            <state relative-caret-position="244">
+              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2154#2155#0" expanded="true" />
-                <element signature="e#2181#2182#0" expanded="true" />
-                <element signature="e#2570#2571#0" expanded="true" />
-                <element signature="e#2612#2613#0" expanded="true" />
+                <element signature="e#2082#2083#0" expanded="true" />
+                <element signature="e#2109#2110#0" expanded="true" />
+                <element signature="e#2498#2499#0" expanded="true" />
+                <element signature="e#2540#2541#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormColunm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/annotation/column/FormColunm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,7 +164,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>用户管理</find>
       <find>系统日志</find>
       <find>selectCode</find>
       <find>billStatus</find>
@@ -219,6 +193,7 @@
       <find>SNAPSHOT</find>
       <find>SearchMode</find>
       <find>beforeEditSave</find>
+      <find>启用</find>
     </findStrings>
     <dirStrings>
       <dir>D:\JAdmin\src\main\java\com\jadmin\controller\admin\base\userCenter</dir>
@@ -248,9 +223,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/enumtype/AdminPageMenu.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminContraroller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/modules/annotation/list/TableHql.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminContraroller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.java" />
       </list>
     </option>
@@ -338,136 +313,6 @@
               <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jadmin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="productManagement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -479,7 +324,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -734,12 +579,20 @@
       <updated>1608429675706</updated>
       <workItem from="1608429676994" duration="15563000" />
       <workItem from="1608447688940" duration="11152000" />
-      <workItem from="1608458876157" duration="49000" />
+      <workItem from="1608458876157" duration="889000" />
     </task>
+    <task id="LOCAL-00001" summary="修改">
+      <created>1608458965711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608458965711</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26764000" />
+    <option name="totallyTimeSpent" value="27604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -755,7 +608,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2988792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12577833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -763,12 +616,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26276463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22462203" sideWeight="0.49253732" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23218143" sideWeight="0.5074627" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -776,7 +630,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -794,7 +647,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27646327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12577833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -803,7 +656,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26276463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22462203" sideWeight="0.49253732" order="0" side_tool="false" content_ui="combo" />
@@ -819,6 +672,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -872,20 +729,8 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java</url>
-          <line>1261</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java</url>
-          <line>1262</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.java</url>
-          <line>75</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -905,6 +750,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="487" column="76" lean-forward="false" selection-start-line="487" selection-start-column="76" selection-end-line="487" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,6 +773,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,6 +781,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="129" column="73" lean-forward="false" selection-start-line="129" selection-start-column="73" selection-end-line="129" selection-end-column="73" />
+          <folding>
+            <marker date="1608447684017" expanded="true" signature="5708:5781" ph="DELETE FROM sys_task... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -949,6 +799,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -956,6 +807,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -963,6 +815,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <marker date="1608447683990" expanded="true" signature="1517:1622" ph="update sys_user... " />
+            <marker date="1608447683990" expanded="true" signature="5818:5870" ph="SELECT MAX(C... SYS_ORG" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -970,6 +826,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="96" column="31" lean-forward="false" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -984,6 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -998,6 +856,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,6 +874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,6 +882,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,6 +890,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,6 +908,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,6 +930,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,6 +946,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="670" column="20" lean-forward="false" selection-start-line="670" selection-start-column="20" selection-end-line="670" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,6 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-461">
           <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,6 +972,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,6 +991,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-368">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,13 +1007,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/annotation/column/FormColunm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,6 +1023,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,13 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminContraroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1217,6 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,9 +1123,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/MemorandumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="48" column="44" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39039">
+        <state relative-caret-position="330">
           <caret line="1268" column="0" lean-forward="false" selection-start-line="1268" selection-start-column="0" selection-end-line="1268" selection-end-column="0" />
           <folding>
             <element signature="e#4452#4453#0" expanded="true" />
@@ -1282,25 +1151,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/MemorandumController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminContraroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="48" column="44" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="44" />
+        <state relative-caret-position="320">
+          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminContraroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        <state relative-caret-position="244">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#2570#2571#0" expanded="true" />
-            <element signature="e#2612#2613#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#2109#2110#0" expanded="true" />
+            <element signature="e#2498#2499#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/annotation/column/FormColunm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
