@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jadmin.vo.fundation.base.JAdminProperties",
+      "name": "jadmin",
+      "type": "com.jadmin.vo.fundation.base.JAdminProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jadmin.vo.fundation.base.JAdminProperties",
+      "name": "jadmin.admin-button",
+      "description": "该属性为后台页面，页面按钮的显示顺序，写在前面，就显示在前面",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.jadmin.vo.fundation.base.JAdminProperties",
+      "name": "jadmin.admin-page",
+      "description": "该属性为后台页面，二级菜单的显示顺序，写在前面，就显示在前面",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.jadmin.vo.fundation.base.JAdminProperties",
+      "name": "jadmin.debug",
+      "description": "是否是调试模式",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jadmin.vo.fundation.base.JAdminProperties",
+      "name": "jadmin.file-base-path",
+      "description": "项目的本地基础路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jadmin.vo.fundation.base.JAdminProperties",
+      "name": "jadmin.task-list",
+      "description": "如果需要通过配置文件指定 启动哪些调度，可在此处配置，注意需开启WebApplication类的@EnableQuartz注解，并将ymlConfig设置为true",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}
