@@ -124,12 +124,12 @@ public class CommonController extends BaseAbstractController {
 	 */
 	@RequestMapping({ "/toModifyPwd" })
 	@MethodLog(type = "修改密码")
-	public @ResponseBody String toModifyPwd(String password, HttpServletRequest request) {
+	public @ResponseBody String toModifyPwd(String password,String newPassword, HttpServletRequest request) {
 		password = Encode.encode(password, true);
 		UserVO userVO = systemDao.queryPwdForUserId(getCurUser(request.getSession()).getUserId(), password);
 		//判断用户输入的老密码是否和数据库一致
 		if(userVO.getPassword().equals(password)){
-			String newPassword = request.getParameter("newPassword");
+//			String newPassword = request.getParameter("newPassword");
 			newPassword = Encode.encode(newPassword, true);
 			userVO.setPassword(newPassword);
 			userVO.setPsChangeTime(getTs());
@@ -137,7 +137,7 @@ public class CommonController extends BaseAbstractController {
 			getClientENV(request.getSession()).setCurUser(userVO);
 			return success;
 		}else{
-			return "原始密码不正确";
+			return userVO.toString();
 		}
 	} 
 	

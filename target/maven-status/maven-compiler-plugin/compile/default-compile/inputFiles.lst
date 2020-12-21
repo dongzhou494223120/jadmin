@@ -1,5 +1,6 @@
 D:\jadmin\src\main\java\com\jadmin\modules\util\SpringContext.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\AdminPageNoButton.java
+D:\jadmin\src\main\java\com\jadmin\controller\admin\base\productManagement\ProductAdminController.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\SysTaskLogVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\ConfigTagValue.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\DictinfoUtils.java
@@ -26,6 +27,7 @@ D:\jadmin\src\main\java\com\jadmin\modules\util\quartz\QuartzUtil.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageSearchColumnVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageSearchModeVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\base\BaseAbstractController.java
+D:\jadmin\src\main\java\com\jadmin\controller\admin\base\productManagement\SpecificationsAdminController.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\MethodLog.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\LogController.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\ConfigUtil.java
@@ -34,10 +36,13 @@ D:\jadmin\src\main\java\com\jadmin\vo\entity\base\UserVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\quartz\DJob.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\CategoryAdminVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\SysTaskVO.java
+D:\jadmin\src\main\java\com\jadmin\dao\framework\impl\MybatisDaoImpl.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\userCenter\RoleController.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageMenuVO.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\dictkind\DictKindDictinfos2Controller.java
 D:\jadmin\src\main\java\com\jadmin\modules\exception\AlertBusinessException.java
+D:\jadmin\src\main\java\com\jadmin\dao\framework\impl\BaseService.java
+D:\jadmin\src\main\java\com\jadmin\dao\framework\info\DAO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\UnEditColunm.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\StartCacheUtil.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\OrgVO.java
@@ -76,6 +81,7 @@ D:\jadmin\src\main\java\com\jadmin\controller\admin\base\userCenter\OrgControlle
 D:\jadmin\src\main\java\com\jadmin\dao\SystemDao.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\Power.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\DictinfoVO.java
+D:\jadmin\src\main\java\com\jadmin\dao\framework\impl\BaseMybatisDAO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\InitDefaultColunm.java
 D:\jadmin\src\main\java\com\jadmin\util\file\FileUtil.java
 D:\jadmin\src\main\java\com\jadmin\vo\enumtype\Regular.java
@@ -109,16 +115,17 @@ D:\jadmin\src\main\java\com\jadmin\controller\admin\base\MemorandumController.ja
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\ConfigVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\exception\BusinessException.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\start\StartBusiness.java
-D:\jadmin\src\main\java\com\jadmin\controller\admin\base\productManagement\CategoryAdminContraroller.java
 D:\jadmin\src\main\java\com\jadmin\modules\dao\base\BaseBusinessDao.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\NoNeedLoginController.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\tool\Page.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\StartCache.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageSelectShowVO.java
+D:\jadmin\src\main\java\com\jadmin\controller\admin\base\productManagement\CategoryAdminController.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\base\aop\LogService.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\RoleVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\tool\BeanProperty.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\base\QueryArgVO.java
+D:\jadmin\src\main\java\com\jadmin\dao\framework\info\Page.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\AdminPageButton.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\TableHql.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\SearchColumn.java
@@ -126,6 +133,5 @@ D:\jadmin\src\main\java\com\jadmin\vo\fundation\base\AbstractValueObject.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\encode\Encode.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\ReportPage.java
 D:\jadmin\src\main\java\com\jadmin\util\file\ExcelUtil.java
-D:\jadmin\src\main\java\com\jadmin\controller\admin\base\productManagement\SpecificationsAdminContraroller.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\base\CommonListController.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\SpecifAdminVO.java

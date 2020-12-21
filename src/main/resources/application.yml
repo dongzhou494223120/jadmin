@@ -40,7 +40,7 @@ jadmin:
   fileBasePath: D://jcsa/jadmin
 
   #是否开启调试模式
-  debug: true
+  debug: false
     
   #该属性为后台页面 的显示顺序，写在前面，就显示在前面
   adminPage: #List

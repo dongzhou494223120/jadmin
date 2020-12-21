@@ -1,7 +1,11 @@
 package com.jadmin.modules.controller.base;
 
+import javax.persistence.Query;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.jadmin.modules.util.encode.Encode;
+import com.jadmin.vo.fundation.base.JAdminProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -18,6 +22,8 @@ import com.jadmin.vo.fundation.tool.ClientENV;
 import com.jadmin.vo.fundation.tool.Commons;
 
 import lombok.extern.slf4j.Slf4j;
+
+import java.util.List;
 
 /**
  * @Title:web框架

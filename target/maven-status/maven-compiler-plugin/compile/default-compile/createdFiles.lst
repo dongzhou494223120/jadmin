@@ -6,7 +6,6 @@ com\jadmin\modules\itf\RunnableWithReturn.class
 com\jadmin\vo\fundation\controller\AdminPageSelectShowVO.class
 com\jadmin\vo\fundation\controller\AdminPageTableColumnVO.class
 com\jadmin\controller\admin\base\system\dictkind\DictKindDictinfosController.class
-com\jadmin\controller\admin\base\productManagement\CategoryAdminContraroller.class
 com\jadmin\vo\entity\base\LogVO.class
 com\jadmin\modules\controller\base\CommonListController.class
 com\jadmin\modules\controller\base\CustomSecurityInterceptor.class
@@ -42,13 +41,16 @@ com\jadmin\modules\util\ClassUtil.class
 com\jadmin\vo\entity\base\SysTaskVO.class
 com\jadmin\modules\annotation\column\InitDefaultColunm.class
 com\jadmin\controller\admin\base\system\dictkind\DictKindDictinfos2Controller.class
+com\jadmin\controller\admin\base\productManagement\ProductAdminController.class
 com\jadmin\modules\exception\BusinessException.class
 com\jadmin\dao\SystemDao.class
 com\jadmin\vo\fundation\base\AbstractValueObject.class
 com\jadmin\controller\admin\base\userCenter\UserController.class
+com\jadmin\dao\framework\info\Page.class
 com\jadmin\vo\enumtype\AdminPageMenu.class
 com\jadmin\modules\dao\base\BaseBusinessDao$2.class
 com\jadmin\modules\util\ConfigUtil.class
+com\jadmin\dao\framework\impl\MybatisDaoImpl.class
 com\jadmin\controller\admin\NoNeedLoginController.class
 com\jadmin\vo\entity\ref\OrgRefVO.class
 com\jadmin\vo\fundation\tool\Commons.class
@@ -70,6 +72,7 @@ com\jadmin\modules\annotation\column\TableColumn.class
 com\jadmin\modules\util\AdminPageUtils$4.class
 com\jadmin\modules\controller\tag\GetTableTag.class
 com\jadmin\modules\annotation\list\DeleteMode.class
+com\jadmin\dao\framework\info\DAO.class
 com\jadmin\controller\admin\base\system\ConfigController.class
 com\jadmin\modules\util\AdminPageUtils$1.class
 com\jadmin\vo\fundation\controller\AdminPageFormColumnVO.class
@@ -87,6 +90,7 @@ com\jadmin\modules\util\quartz\QuartzBean.class
 com\jadmin\modules\annotation\column\UniqueColunm.class
 com\jadmin\util\JsonUtil$1.class
 com\jadmin\modules\annotation\list\Tree.class
+com\jadmin\dao\framework\impl\BaseMybatisDAO.class
 com\jadmin\modules\annotation\quartz\DJob.class
 com\jadmin\modules\annotation\column\FormColunm.class
 com\jadmin\modules\annotation\quartz\EnableQuartz.class
@@ -99,15 +103,16 @@ META-INF\spring-configuration-metadata.json
 com\jadmin\util\file\FileUtil$1.class
 com\jadmin\modules\controller\base\aop\LogService.class
 com\jadmin\modules\annotation\list\AdminPageNoButton.class
+com\jadmin\dao\framework\impl\BaseService.class
 com\jadmin\vo\entity\base\SpecifAdminVO.class
 com\jadmin\vo\entity\base\DictinfoVO.class
 com\jadmin\vo\fundation\controller\ReportCol.class
 com\jadmin\modules\controller\tag\SelectTag.class
 com\jadmin\controller\admin\base\system\SysTaskController.class
 com\jadmin\modules\dao\base\BaseBusinessDao.class
+com\jadmin\controller\admin\base\productManagement\CategoryAdminController.class
 com\jadmin\util\UserAgentUtil.class
 com\jadmin\vo\fundation\base\QueryArgVO.class
-com\jadmin\controller\admin\base\productManagement\SpecificationsAdminContraroller.class
 com\jadmin\vo\entity\base\UserVO.class
 com\jadmin\util\file\FileList.class
 com\jadmin\modules\controller\tag\GetTreeJson.class
@@ -135,6 +140,7 @@ com\jadmin\modules\annotation\NoNeedLogin.class
 com\jadmin\vo\entity\base\CategoryAdminVO.class
 com\jadmin\vo\fundation\controller\ReportPage.class
 com\jadmin\modules\annotation\list\SearchMode.class
+com\jadmin\controller\admin\base\productManagement\SpecificationsAdminController.class
 com\jadmin\modules\util\StaticPageUtils.class
 com\jadmin\modules\annotation\list\AdminPageButton.class
 com\jadmin\vo\fundation\tool\ClientENV.class
