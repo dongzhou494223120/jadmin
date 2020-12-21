@@ -4,6 +4,7 @@ D:\jadmin\src\main\java\com\jadmin\controller\admin\base\productManagement\Produ
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\SysTaskLogVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\ConfigTagValue.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\DictinfoUtils.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\base\ProductAdminVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageFormColumnVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\SelectShow.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\RoleModuleVO.java
@@ -36,13 +37,10 @@ D:\jadmin\src\main\java\com\jadmin\vo\entity\base\UserVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\quartz\DJob.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\CategoryAdminVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\SysTaskVO.java
-D:\jadmin\src\main\java\com\jadmin\dao\framework\impl\MybatisDaoImpl.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\userCenter\RoleController.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageMenuVO.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\dictkind\DictKindDictinfos2Controller.java
 D:\jadmin\src\main\java\com\jadmin\modules\exception\AlertBusinessException.java
-D:\jadmin\src\main\java\com\jadmin\dao\framework\impl\BaseService.java
-D:\jadmin\src\main\java\com\jadmin\dao\framework\info\DAO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\UnEditColunm.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\StartCacheUtil.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\OrgVO.java
@@ -81,7 +79,6 @@ D:\jadmin\src\main\java\com\jadmin\controller\admin\base\userCenter\OrgControlle
 D:\jadmin\src\main\java\com\jadmin\dao\SystemDao.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\Power.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\DictinfoVO.java
-D:\jadmin\src\main\java\com\jadmin\dao\framework\impl\BaseMybatisDAO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\InitDefaultColunm.java
 D:\jadmin\src\main\java\com\jadmin\util\file\FileUtil.java
 D:\jadmin\src\main\java\com\jadmin\vo\enumtype\Regular.java
@@ -125,7 +122,6 @@ D:\jadmin\src\main\java\com\jadmin\modules\controller\base\aop\LogService.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\RoleVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\tool\BeanProperty.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\base\QueryArgVO.java
-D:\jadmin\src\main\java\com\jadmin\dao\framework\info\Page.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\AdminPageButton.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\TableHql.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\SearchColumn.java

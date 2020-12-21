@@ -37,8 +37,7 @@ public class SpecificationsAdminController extends CommonListController<Category
     @TableColumn(search = true)
     private String categoryName;
 
-
-    @TableColumn(value = "操作人")
+    @FormColunm(value = "操作人",editShow=false)
     @InitDefaultColunm
     public String operatorId;
 
@@ -46,7 +45,8 @@ public class SpecificationsAdminController extends CommonListController<Category
     @TableColumn(search = true)
     private String billStatus;
 
-    @FormColunm(value = "描述")
+    @FormColunm(value = "描述", type = "textarea", length = 200, required = false)
+
     @TableColumn(search = true)
     private String memo;
 

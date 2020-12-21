@@ -46,11 +46,9 @@ com\jadmin\modules\exception\BusinessException.class
 com\jadmin\dao\SystemDao.class
 com\jadmin\vo\fundation\base\AbstractValueObject.class
 com\jadmin\controller\admin\base\userCenter\UserController.class
-com\jadmin\dao\framework\info\Page.class
 com\jadmin\vo\enumtype\AdminPageMenu.class
 com\jadmin\modules\dao\base\BaseBusinessDao$2.class
 com\jadmin\modules\util\ConfigUtil.class
-com\jadmin\dao\framework\impl\MybatisDaoImpl.class
 com\jadmin\controller\admin\NoNeedLoginController.class
 com\jadmin\vo\entity\ref\OrgRefVO.class
 com\jadmin\vo\fundation\tool\Commons.class
@@ -72,7 +70,6 @@ com\jadmin\modules\annotation\column\TableColumn.class
 com\jadmin\modules\util\AdminPageUtils$4.class
 com\jadmin\modules\controller\tag\GetTableTag.class
 com\jadmin\modules\annotation\list\DeleteMode.class
-com\jadmin\dao\framework\info\DAO.class
 com\jadmin\controller\admin\base\system\ConfigController.class
 com\jadmin\modules\util\AdminPageUtils$1.class
 com\jadmin\vo\fundation\controller\AdminPageFormColumnVO.class
@@ -90,7 +87,6 @@ com\jadmin\modules\util\quartz\QuartzBean.class
 com\jadmin\modules\annotation\column\UniqueColunm.class
 com\jadmin\util\JsonUtil$1.class
 com\jadmin\modules\annotation\list\Tree.class
-com\jadmin\dao\framework\impl\BaseMybatisDAO.class
 com\jadmin\modules\annotation\quartz\DJob.class
 com\jadmin\modules\annotation\column\FormColunm.class
 com\jadmin\modules\annotation\quartz\EnableQuartz.class
@@ -103,7 +99,6 @@ META-INF\spring-configuration-metadata.json
 com\jadmin\util\file\FileUtil$1.class
 com\jadmin\modules\controller\base\aop\LogService.class
 com\jadmin\modules\annotation\list\AdminPageNoButton.class
-com\jadmin\dao\framework\impl\BaseService.class
 com\jadmin\vo\entity\base\SpecifAdminVO.class
 com\jadmin\vo\entity\base\DictinfoVO.class
 com\jadmin\vo\fundation\controller\ReportCol.class
@@ -134,6 +129,7 @@ com\jadmin\vo\entity\base\MemorandumVO.class
 com\jadmin\vo\fundation\controller\AdminPageSearchModeVO.class
 com\jadmin\vo\entity\base\DictkindVO.class
 com\jadmin\modules\controller\tag\DateTag.class
+com\jadmin\vo\entity\base\ProductAdminVO.class
 com\jadmin\vo\fundation\tool\BeanProperty.class
 com\jadmin\modules\controller\base\aop\InitPageNameService.class
 com\jadmin\modules\annotation\NoNeedLogin.class

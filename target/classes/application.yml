@@ -60,13 +60,3 @@ jadmin:
   #如果需要通过配置文件指定 启动哪些调度，可在此处配置，注意需开启WebApplication类的@EnableQuartz注解，并将ymlConfig设置为true
   #格式为包名.类名，如果在com.jadmin.quartz包下，可只写类名（注意大小写）
   taskList: #List
-
-  #mybatis配置
-  mybatis:
-  #配置SQL映射文件路径
-  mapper-locations: classpsth:mapper/*.xml
-  #配置别名
-  type-aliases-package: com.jadmin.dao.framework.DTO;
-  #驼峰命名
-  configuration:
-  map-underscore-to-camel-case: true

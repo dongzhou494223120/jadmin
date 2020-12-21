@@ -51,7 +51,7 @@ public class CategoryAdminController extends CommonListController<CategoryAdminV
     @TableColumn(search = true)
     private String billStatus;
 
-    @FormColunm(value = "描述")
+    @FormColunm(value = "描述", type = "textarea", length = 200, required = false)
     @TableColumn(search = true)
     private String memo;
 
