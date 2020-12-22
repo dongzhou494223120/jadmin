@@ -4,8 +4,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.persistence.Query;
 import javax.servlet.http.HttpServletRequest;
 
+import com.jadmin.modules.exception.BusinessException;
+import com.jadmin.vo.entity.base.*;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,9 +22,6 @@ import com.jadmin.modules.util.AdminPageUtils;
 import com.jadmin.modules.util.DictinfoUtils;
 import com.jadmin.modules.util.encode.Encode;
 import com.jadmin.util.DateTimeUtil;
-import com.jadmin.vo.entity.base.DictkindVO;
-import com.jadmin.vo.entity.base.MemorandumVO;
-import com.jadmin.vo.entity.base.UserVO;
 import com.jadmin.vo.fundation.controller.AdminPageMenuVO;
 import com.jadmin.vo.fundation.tool.Commons;
 
@@ -220,5 +220,16 @@ public class CommonController extends BaseAbstractController {
 		}
 		return getJsonMap(rMap).toString();
 	}
-	
+
+
+	/**
+	 * 获取编码
+	 */
+	@RequestMapping(value="/util/getCode")
+	public @ResponseBody Object getCode(HttpServletRequest request,String code){
+		DictkindVO vo=	DictinfoUtils.getDictkind(code,request);
+		return vo.getTreeJsonList();
+	}
+
+
 }

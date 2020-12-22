@@ -1755,7 +1755,7 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
      * 上传图片
      *
      * @param class1
-     * @param formType FormColumn type
+     * @param
      * @param vo
      * @param request
      * @return

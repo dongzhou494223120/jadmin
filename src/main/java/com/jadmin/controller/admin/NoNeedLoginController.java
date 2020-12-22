@@ -1,6 +1,9 @@
 package com.jadmin.controller.admin;
 
 import javax.servlet.http.HttpServletRequest;
+
+import com.jadmin.modules.util.DictinfoUtils;
+import com.jadmin.vo.entity.base.DictkindVO;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -65,5 +68,15 @@ public class NoNeedLoginController extends BaseAbstractController {
 		StartCacheUtil.refurbish(keys);
 		return getRuturnJsonMap();
 	}
-	
+
+
+	/**
+	 * 获取编码
+	 */
+	@RequestMapping(value="/getDictionaries")
+	public @ResponseBody Object getCode(HttpServletRequest request, String code){
+		DictkindVO vo=	DictinfoUtils.getDictkind(code,request);
+		return vo.getTreeJsonList();
+	}
+
 }

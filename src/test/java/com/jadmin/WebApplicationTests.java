@@ -1,7 +1,11 @@
 package com.jadmin;
 
+import com.jadmin.vo.entity.base.CategoryAdminVO;
+import net.sf.json.JSON;
+import org.json.simple.JSONObject;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -11,6 +15,15 @@ public class WebApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		CategoryAdminVO vo=new CategoryAdminVO();
+		vo.setSeq("1");
+		vo.setType("类型");
+		vo.setIsDelete("删除");
+		vo.setBillStatus("4");
+		JSONObject json=vo.toJson();
+
+	System.out.println(vo.toString());
+		System.out.println(	json.toString());
 	}
 
 //	CREATE TABLE `category_admin` (

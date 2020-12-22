@@ -7,16 +7,26 @@ import com.jadmin.modules.annotation.column.TableColumn;
 import com.jadmin.modules.annotation.list.*;
 import com.jadmin.modules.controller.base.CommonListController;
 import com.jadmin.modules.exception.BusinessException;
+import com.jadmin.modules.util.DictinfoUtils;
+import com.jadmin.util.JsonUtil;
 import com.jadmin.vo.entity.base.CategoryAdminVO;
+import com.jadmin.vo.entity.base.DictkindVO;
 import com.jadmin.vo.entity.base.OrgVO;
 import com.jadmin.vo.entity.base.UserVO;
 import com.jadmin.vo.enumtype.AdminPageMenu;
+import com.jadmin.vo.fundation.tool.ClientENV;
+import com.jadmin.vo.fundation.tool.Commons;
 import org.apache.poi.ss.formula.functions.T;
+import org.json.simple.JSONObject;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.persistence.Column;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
@@ -72,4 +82,8 @@ public class CategoryAdminController extends CommonListController<CategoryAdminV
     public String getHqlWhere(HttpServletRequest request) {
         return "type = 'CATEGORY'";
     }
+
+
+
+
 }

@@ -69,7 +69,7 @@ public class CustomSecurityInterceptor implements HandlerInterceptor {
         	Commons.getInstance().setAdminPageMenus(AdminPageUtils.getAdminPageMenus());
         	return true;
         }
-        
+
         for (String u : Commons.getInstance().getExcludedUrls()) {
             if (url.equals(u) || (u.endsWith("*") && url.startsWith(u.replace("*", "")))) {
                 return true;
