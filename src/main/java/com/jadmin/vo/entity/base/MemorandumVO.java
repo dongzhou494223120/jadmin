@@ -9,6 +9,7 @@ import javax.persistence.Table;
 
 import com.jadmin.vo.fundation.base.AbstractValueObject;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -22,7 +23,7 @@ import lombok.Setter;
  */
 @Entity
 @Table(name = "sys_memorandum")
-@Getter @Setter
+@Data
 public class MemorandumVO extends AbstractValueObject {
 
 	/** 序列号 */

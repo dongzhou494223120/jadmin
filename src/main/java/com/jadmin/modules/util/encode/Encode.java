@@ -5,8 +5,8 @@ import java.security.MessageDigest;
 
 
 import com.jadmin.vo.entity.base.CategoryAdminVO;
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
+
+import net.sf.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -136,10 +136,22 @@ public class Encode {
     }
     
     public static void main(String[] args) {
-//        /** key */
-//    	String jm = encode("111111", true);
-//    	System.out.println(jm);
-//    	System.out.println(decode(jm));
+
+//定义两种不同格式的字符串
+        String objectStr="{\"isDelete\":\"删除\",\"operateTime\":null,\"billStatus\":\"4\",\"memo\":null,\"type\":\"类型\",\"categoryName\":null,\"operatorId\":null,\"categoryId\":null,\"seq\":\"1\"}";
+        String arrayStr="[{\"name\":\"JSON\",\"age\":\"24\",\"address\":\"北京市西城区\"}]";
+//1、使用JSONObject
+        JSONObject jsonObject=JSONObject.fromObject(objectStr);
+        CategoryAdminVO stu=(CategoryAdminVO)JSONObject.toBean(jsonObject, CategoryAdminVO.class);
+////2、使用JSONArray
+//        JSONArray jsonArray=JSONArray.fromObject(arrayStr);
+////获得jsonArray的第一个元素
+//        Object o=jsonArray.get(0);
+//        JSONObject jsonObject2=JSONObject.fromObject(o);
+//        Student stu2=(Student) JSONObject.toBean(jsonObject2, Student.class);
+        System.out.println("stu:"+stu);
+//        System.out.println("stu2:"+stu2);
+
     }
 
 }

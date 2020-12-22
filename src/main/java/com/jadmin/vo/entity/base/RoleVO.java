@@ -12,6 +12,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import lombok.Data;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 import org.hibernate.annotations.GenericGenerator;
@@ -29,7 +30,8 @@ import lombok.Setter;
  * @author:-jiujiya
  * @version:1.0 
  */
-@Entity @Getter @Setter
+@Entity
+@Data
 @Table(name = "sys_role")
 public class RoleVO extends AbstractValueObject {
 

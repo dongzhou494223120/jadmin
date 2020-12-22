@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import com.jadmin.vo.fundation.base.AbstractValueObject;
@@ -21,7 +22,8 @@ import lombok.Setter;
  * @author:-jiujiya
  * @version:1.0 
  */
-@Entity @Getter @Setter
+@Entity
+@Data
 @Table(name = "sys_org")
 public class OrgVO extends AbstractValueObject {
 

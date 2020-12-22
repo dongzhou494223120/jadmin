@@ -8,6 +8,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.NotFound;
 import org.hibernate.annotations.NotFoundAction;
@@ -28,7 +29,7 @@ import lombok.Setter;
  */
 @Entity
 @Table(name = "sys_user")
-@Getter @Setter
+@Data
 public class UserVO extends AbstractValueObject {
 
 	/** 序列号 */

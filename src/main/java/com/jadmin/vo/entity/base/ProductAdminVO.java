@@ -1,6 +1,7 @@
 package com.jadmin.vo.entity.base;
 
 import com.jadmin.vo.fundation.base.AbstractValueObject;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
@@ -14,8 +15,7 @@ import java.math.BigDecimal;
  * @CreateDate: 2020/12/21 12:34
  */
 @Entity
-@Getter
-@Setter
+@Data
 @Table(name = "product_admin")
 public class ProductAdminVO extends AbstractValueObject {
     @Id

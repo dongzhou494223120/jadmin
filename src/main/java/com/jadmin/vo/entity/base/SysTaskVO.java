@@ -7,6 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import com.jadmin.vo.fundation.base.AbstractValueObject;
@@ -25,7 +26,8 @@ import lombok.ToString;
  */
 @Entity
 @Table(name = "sys_task")
-@Getter @Setter @ToString
+@Data
+@ToString
 public class SysTaskVO extends AbstractValueObject {
 
 	/** 序列号 */

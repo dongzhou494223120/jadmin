@@ -8,6 +8,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import com.jadmin.vo.fundation.base.AbstractValueObject;
@@ -23,7 +24,8 @@ import lombok.Setter;
  * @author:-jiujiya
  * @version:1.0 
  */
-@Entity @Getter @Setter
+@Entity
+@Data
 @Table(name = "sys_role_module")
 public class RoleModuleVO extends AbstractValueObject {
 

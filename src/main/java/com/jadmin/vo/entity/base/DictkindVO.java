@@ -17,6 +17,7 @@ import javax.persistence.OrderBy;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import lombok.Data;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 import org.hibernate.annotations.GenericGenerator;
@@ -35,7 +36,8 @@ import lombok.Setter;
  * @author:-jiujiya
  * @version:1.0 
  */
-@Entity @Getter @Setter
+@Entity
+@Data
 @Table(name = "sys_dictkind")
 public class DictkindVO extends AbstractValueObject {
 

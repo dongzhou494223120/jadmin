@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import lombok.Data;
 import org.apache.commons.lang.StringUtils;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -26,7 +27,8 @@ import lombok.Setter;
  * @author:-jiujiya
  * @version:1.0 
  */
-@Entity @Getter @Setter
+@Entity
+@Data
 @Table(name = "sys_dictinfo")
 public class DictinfoVO extends AbstractValueObject {
 

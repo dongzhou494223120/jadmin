@@ -6,20 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05d5412-2735-42d8-9b0c-1b86a2678dd0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_51.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/JAdmin.iml" afterPath="$PROJECT_DIR$/.idea/JAdmin.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JAdmin_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/JAdmin_war_exploded.xml" />
+    <list default="true" id="c05d5412-2735-42d8-9b0c-1b86a2678dd0" name="Default" comment="打包名称">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/BaseAbstractController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/BaseAbstractController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CustomSecurityInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CustomSecurityInterceptor.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/encode/Encode.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/encode/Encode.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jadmin/WebApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/jadmin/WebApplicationTests.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ConfigVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ConfigVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictinfoVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictinfoVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictkindVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictkindVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/LogVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/LogVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/MemorandumVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/MemorandumVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/OrgVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/OrgVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ProductAdminVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ProductAdminVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleModuleVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleModuleVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SysTaskLogVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SysTaskLogVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SysTaskVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SysTaskVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/UserVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/UserVO.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/WebApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/WebApplication.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/MainsiteErrorController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/MainsiteErrorController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/CommonController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/CommonController.class" />
@@ -146,65 +149,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="CategoryAdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminController.java">
+      <file leaf-file-name="CategoryAdminVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java">
+      <file leaf-file-name="UserVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/UserVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="228" column="40" lean-forward="false" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
-              <folding>
-                <marker date="1608623993962" expanded="true" signature="4542:4609" ph="update sys_user... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Encode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/encode/Encode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="132" column="7" lean-forward="false" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomSecurityInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CustomSecurityInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="70" column="9" lean-forward="false" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainsiteErrorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/MainsiteErrorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoNeedLoginController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+            <state relative-caret-position="277">
+              <caret line="87" column="24" lean-forward="false" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -213,44 +172,213 @@
       <file leaf-file-name="CommonListController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4515">
-              <caret line="1024" column="0" lean-forward="false" selection-start-line="1024" selection-start-column="0" selection-end-line="1024" selection-end-column="0" />
+            <state relative-caret-position="201">
+              <caret line="1028" column="37" lean-forward="false" selection-start-line="1028" selection-start-column="37" selection-end-line="1028" selection-end-column="37" />
               <folding>
-                <element signature="e#7136#7137#0" expanded="true" />
-                <element signature="e#7178#7179#0" expanded="true" />
-                <element signature="e#47537#47560#0" expanded="true" />
                 <marker date="1608609738899" expanded="true" signature="12237:12409" ph="update missingValue... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductAdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/ProductAdminController.java">
+      <file leaf-file-name="MainsiteErrorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/MainsiteErrorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="-71">
+              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DictinfoUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/DictinfoUtils.java">
+      <file leaf-file-name="NoNeedLoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryAdminVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java">
+      <file leaf-file-name="mvnw.cmd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvnw.cmd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-653">
-              <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="-4092">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvnw" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvnw">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONObject.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+              <folding>
+                <marker date="1608513298359" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1608513298359" expanded="false" signature="135:1644" ph="..." />
+                <marker date="1608513298359" expanded="true" signature="1919:1930" ph=" { " />
+                <marker date="1608513298359" expanded="true" signature="1974:1980" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="2060:3664" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="3721:5719" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="5793:5941" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="6029:6219" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="6299:19038" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="19131:29262" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="29340:31354" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="31444:36473" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="36557:39425" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="39515:42489" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="42579:42671" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="42764:49503" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="49576:53738" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="53817:54103" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="54240:55697" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="55826:56196" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="56359:56744" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="56835:57513" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="57582:58056" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="58155:58516" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="58606:59148" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="59251:59986" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="60103:60344" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="60479:61799" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="61824:61835" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="61874:61880" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="61920:61977" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="62039:62140" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="62200:62211" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="62265:62271" ph=" }" />
+                <marker date="1608513298359" expanded="false" signature="62328:62339" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="62393:62399" ph=" }" />
+                <marker date="1608513298359" expanded="false" signature="62457:62468" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="62522:62528" ph=" }" />
+                <marker date="1608513298359" expanded="false" signature="62588:62599" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="62653:62659" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="62743:62807" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="62847:62858" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="62900:62906" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="62970:63733" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="63758:63769" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="63793:63799" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="63838:64281" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="64325:64336" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="64376:64382" ph=" }" />
+                <marker date="1608513298359" expanded="false" signature="64430:64441" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="64492:64498" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="64570:64778" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="64822:64916" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="64975:65093" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="65154:65165" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="65215:65221" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="65306:65487" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="65545:65699" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="65754:65854" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="65910:66007" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="66061:66072" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="66122:66128" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="66206:66397" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="66454:66465" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="66515:66521" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="66602:66996" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="67056:67067" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="67120:67126" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="67210:67372" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="67399:67410" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="67473:67479" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="67519:71466" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="71501:71512" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="71572:71578" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="71614:71691" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="71735:72236" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="72278:72775" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="72811:73123" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="73171:73453" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="73503:73871" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="73909:74223" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="74265:74512" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="74549:74634" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="74662:75201" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="75231:75242" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="75255:75261" ph=" }" />
+                <marker date="1608513298359" expanded="false" signature="75291:75302" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="75335:75341" ph=" }" />
+                <marker date="1608513298359" expanded="false" signature="75376:75387" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="75410:75416" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="75445:75522" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="75547:75558" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="75619:75625" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="75656:75869" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="75921:76146" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="76182:76280" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="76324:76404" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="76470:76640" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="76682:76766" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="76829:77088" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="77124:77196" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="77250:77416" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="77464:77595" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="77645:77778" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="77816:77890" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="77947:78114" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="78156:78232" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="78295:78421" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="78471:78735" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="78768:78779" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="78814:78820" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="78877:79629" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="79667:79678" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="79713:79719" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="79758:79838" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="79861:79872" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="79902:79908" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="79960:80291" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="80322:81105" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="81152:81364" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="81423:83704" ph="{...}" />
+                <marker date="1608513298359" expanded="false" signature="83736:83747" ph=" { " />
+                <marker date="1608513298359" expanded="false" signature="83815:83821" ph=" }" />
+                <marker date="1608513298359" expanded="true" signature="83862:85024" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="85110:85710" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="85784:86078" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="86165:86667" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="86738:87242" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="87325:87834" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="87920:88021" ph="{...}" />
+                <marker date="1608513298359" expanded="true" signature="88055:88159" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -283,7 +411,6 @@
       <find>CATEGORY</find>
       <find>methodInit</find>
       <find>memoAjax</find>
-      <find>main</find>
       <find>登陆超时，请重新登录</find>
       <find>登陆超时，请重新登录！</find>
       <find>excludedUrls</find>
@@ -295,6 +422,7 @@
       <find>mainName</find>
       <find>parseObject</find>
       <find>保存</find>
+      <find>main</find>
       <find>登录</find>
     </findStrings>
     <replaceStrings>
@@ -328,7 +456,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/category/data-list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/category/data-edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/enumtype/AdminPageMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/modules/annotation/list/TableHql.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/pwd.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/dao/SystemDao.java" />
@@ -342,7 +469,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ProductAdminVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/ProductAdminController.java" />
@@ -351,10 +477,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/BaseAbstractController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/BIjdsVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/encode/Encode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CustomSecurityInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/encode/Encode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ConfigVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictinfoVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictkindVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/LogVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/MemorandumVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/OrgVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ProductAdminVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleModuleVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SysTaskLogVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SysTaskVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/UserVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java" />
       </list>
     </option>
@@ -436,74 +575,6 @@
             <path>
               <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="productManagement" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -856,7 +927,7 @@
       <workItem from="1608512364111" duration="22626000" />
       <workItem from="1608535587589" duration="27313000" />
       <workItem from="1608620803601" duration="732000" />
-      <workItem from="1608621583762" duration="2720000" />
+      <workItem from="1608621583762" duration="4373000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1608458965711</created>
@@ -893,7 +964,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608604026414</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="打包名称">
+      <created>1608624353292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608624353292</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -902,7 +980,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81402000" />
+    <option name="totallyTimeSpent" value="83055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -918,7 +996,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21544209" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15691158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -929,7 +1007,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29049677" sideWeight="0.49253732" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29049677" sideWeight="0.49253732" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23218143" sideWeight="0.5074627" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -999,7 +1077,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java</url>
-          <line>58</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -1064,18 +1142,6 @@
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java</url>
-          <line>1024</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java</url>
-          <line>1010</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/dao/base/BaseBusinessDao.java</url>
           <line>570</line>
           <properties />
@@ -1101,7 +1167,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java</url>
-          <line>68</line>
+          <line>76</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
@@ -1119,13 +1185,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictkindVO.java</url>
-          <line>115</line>
+          <line>117</line>
           <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictkindVO.java</url>
-          <line>117</line>
+          <line>119</line>
           <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
@@ -1147,11 +1213,23 @@
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/encode/Encode.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="101" />
+      <option name="time" value="104" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1160,102 +1238,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/start/StartBusiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-887">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/ConfigUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-832">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/VOUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2185">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/StartCacheUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-821">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/SpringContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/util/UserAgentUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/util/conn/UrlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/util/conn/ConnectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="192" column="21" lean-forward="false" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/WebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/util/file/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="424" column="23" lean-forward="false" selection-start-line="424" selection-start-column="23" selection-end-line="424" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jadmin/WebApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="25" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/work/jdk1.8.0_161/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1485,46 +1467,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/UserVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/OrgVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/BIjdsVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ConfigVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="65" column="16" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-          <folding>
-            <element signature="e#1289#1290#0" expanded="false" />
-            <element signature="e#1324#1325#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1538,14 +1485,6 @@
             <element signature="e#1771#1772#0" expanded="false" />
             <element signature="e#1809#1810#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SysTaskLogVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,37 +1524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4515">
-          <caret line="1024" column="0" lean-forward="false" selection-start-line="1024" selection-start-column="0" selection-end-line="1024" selection-end-column="0" />
-          <folding>
-            <element signature="e#7136#7137#0" expanded="true" />
-            <element signature="e#7178#7179#0" expanded="true" />
-            <element signature="e#47537#47560#0" expanded="true" />
-            <marker date="1608609738899" expanded="true" signature="12237:12409" ph="update missingValue... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/encode/Encode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="132" column="7" lean-forward="false" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-653">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1623,6 +1531,14 @@
           <folding>
             <marker date="1608623993962" expanded="true" signature="4542:4609" ph="update sys_user... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1634,26 +1550,322 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/encode/Encode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="150" column="36" lean-forward="false" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ConfigVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictinfoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/DictkindVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/LogVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/MemorandumVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/OrgVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ProductAdminVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleModuleVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SpecifAdminVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SysTaskLogVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/SysTaskVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/UserVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="87" column="24" lean-forward="false" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/base/CommonListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="1028" column="37" lean-forward="false" selection-start-line="1028" selection-start-column="37" selection-end-line="1028" selection-end-column="37" />
+          <folding>
+            <marker date="1608609738899" expanded="true" signature="12237:12409" ph="update missingValue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/MainsiteErrorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="-71">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <marker date="1608513298359" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1608513298359" expanded="false" signature="135:1644" ph="..." />
+            <marker date="1608513298359" expanded="true" signature="1919:1930" ph=" { " />
+            <marker date="1608513298359" expanded="true" signature="1974:1980" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="2060:3664" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="3721:5719" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="5793:5941" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="6029:6219" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="6299:19038" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="19131:29262" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="29340:31354" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="31444:36473" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="36557:39425" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="39515:42489" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="42579:42671" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="42764:49503" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="49576:53738" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="53817:54103" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="54240:55697" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="55826:56196" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="56359:56744" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="56835:57513" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="57582:58056" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="58155:58516" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="58606:59148" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="59251:59986" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="60103:60344" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="60479:61799" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="61824:61835" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="61874:61880" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="61920:61977" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="62039:62140" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="62200:62211" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="62265:62271" ph=" }" />
+            <marker date="1608513298359" expanded="false" signature="62328:62339" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="62393:62399" ph=" }" />
+            <marker date="1608513298359" expanded="false" signature="62457:62468" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="62522:62528" ph=" }" />
+            <marker date="1608513298359" expanded="false" signature="62588:62599" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="62653:62659" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="62743:62807" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="62847:62858" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="62900:62906" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="62970:63733" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="63758:63769" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="63793:63799" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="63838:64281" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="64325:64336" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="64376:64382" ph=" }" />
+            <marker date="1608513298359" expanded="false" signature="64430:64441" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="64492:64498" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="64570:64778" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="64822:64916" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="64975:65093" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="65154:65165" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="65215:65221" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="65306:65487" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="65545:65699" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="65754:65854" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="65910:66007" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="66061:66072" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="66122:66128" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="66206:66397" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="66454:66465" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="66515:66521" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="66602:66996" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="67056:67067" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="67120:67126" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="67210:67372" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="67399:67410" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="67473:67479" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="67519:71466" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="71501:71512" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="71572:71578" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="71614:71691" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="71735:72236" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="72278:72775" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="72811:73123" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="73171:73453" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="73503:73871" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="73909:74223" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="74265:74512" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="74549:74634" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="74662:75201" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="75231:75242" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="75255:75261" ph=" }" />
+            <marker date="1608513298359" expanded="false" signature="75291:75302" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="75335:75341" ph=" }" />
+            <marker date="1608513298359" expanded="false" signature="75376:75387" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="75410:75416" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="75445:75522" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="75547:75558" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="75619:75625" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="75656:75869" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="75921:76146" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="76182:76280" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="76324:76404" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="76470:76640" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="76682:76766" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="76829:77088" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="77124:77196" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="77250:77416" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="77464:77595" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="77645:77778" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="77816:77890" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="77947:78114" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="78156:78232" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="78295:78421" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="78471:78735" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="78768:78779" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="78814:78820" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="78877:79629" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="79667:79678" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="79713:79719" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="79758:79838" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="79861:79872" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="79902:79908" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="79960:80291" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="80322:81105" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="81152:81364" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="81423:83704" ph="{...}" />
+            <marker date="1608513298359" expanded="false" signature="83736:83747" ph=" { " />
+            <marker date="1608513298359" expanded="false" signature="83815:83821" ph=" }" />
+            <marker date="1608513298359" expanded="true" signature="83862:85024" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="85110:85710" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="85784:86078" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="86165:86667" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="86738:87242" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="87325:87834" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="87920:88021" ph="{...}" />
+            <marker date="1608513298359" expanded="true" signature="88055:88159" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+        <state relative-caret-position="396">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4092">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

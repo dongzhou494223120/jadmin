@@ -1,6 +1,7 @@
 package com.jadmin.vo.entity.base;
 
 import com.jadmin.vo.fundation.base.AbstractValueObject;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.Fetch;
@@ -17,8 +18,7 @@ import java.util.List;
  * @CreateDate: 2020/12/20 13:02
  */
 @Entity
-@Getter
-@Setter
+@Data
 @Table(name = "category_admin")
 public class CategoryAdminVO extends AbstractValueObject {
     /** 序列号 */
