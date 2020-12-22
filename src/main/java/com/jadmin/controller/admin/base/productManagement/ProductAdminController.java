@@ -38,7 +38,7 @@ public class ProductAdminController  extends CommonListController<ProductAdminVO
     @FormColunm(value = "类别名称")
     private String productName;
 
-    @TableColumn(selectCode = "userRole", column = "role.roleId")
+    @TableColumn(selectCode = "userRole")
     @FormColunm(value = "系列名称")
     private String seriesName;
 
