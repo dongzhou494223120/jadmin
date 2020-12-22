@@ -42,7 +42,7 @@ public class ProductAdminController  extends CommonListController<ProductAdminVO
     @FormColunm(value = "系列名称")
     private String seriesName;
 
-    @TableColumn(selectCode = "goodBy")
+    @TableColumn
     @FormColunm(value = "规格名称")
     private String specifName;
 

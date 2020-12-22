@@ -87,6 +87,18 @@ public class UserVO extends AbstractValueObject {
 	@Column(length = 512)
 	private String memo;
 
+	@Column(length = 100)
+	private String region;
+
+	@Column(length = 100)
+	private String recommender;
+
+	@Column(length = 10)
+	private Integer integral;
+
+	@Column(length = 100)
+	private String rqCode;
+
 	@Override
 	public String getPrimaryKey() {
 		return userId;

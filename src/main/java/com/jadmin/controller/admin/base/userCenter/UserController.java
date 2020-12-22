@@ -2,8 +2,10 @@ package com.jadmin.controller.admin.base.userCenter;
 
 import java.util.List;
 
+import javax.persistence.Column;
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.poi.ss.formula.functions.T;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -40,14 +42,16 @@ import com.jadmin.vo.enumtype.JavaType;
 @Tree // 声明为树形结构
 public class UserController extends CommonListController<UserVO> {
 
-    @FormColunm(value = "账号", edit = "false") // 不允许编辑
-    @TableColumn(search = true)
-    @UniqueColunm // 账号唯一性效验
-    public String account;
+
 
     @FormColunm(value = "姓名")
     @TableColumn
     public String name;
+
+    @FormColunm(value = "电话号码", edit = "false") // 不允许编辑
+    @TableColumn(search = true)
+    @UniqueColunm // 账号唯一性效验
+    public String account;
 
     @FormColunm(value = "性别", selectCode = "sex", selectStyle = "icheck")
     @TableColumn(search = true)
@@ -57,12 +61,23 @@ public class UserController extends CommonListController<UserVO> {
     @TableColumn(search = true)
     public String roleId;
 
+    @TableColumn
+    @FormColunm(value = "区域")
+    private String region;
+    @TableColumn
+    @FormColunm(value = "推荐人")
+    private String recommender;
+    @TableColumn
+    @FormColunm(value = "积分",editShow=false)
+    private Integer integral;
+
     @FormColunm(value = "所属部门", selectCode = "org", column = "org.orgId", selectStyle = "tree")
     @TableColumn
     public String orgId;
 
     @FormColunm(value = "密码", encode = "des", edit = "false") // 设置该字段为 des加密，并且编辑时，不可见
-    public String password; 
+    public String password;
+
 
     @FormColunm(value = "状态", selectCode = "billStatus")
     @TableColumn(search = true)
@@ -81,6 +96,12 @@ public class UserController extends CommonListController<UserVO> {
 
     @InitDefaultColunm(" ")
     private String lastLoginIp;
+
+
+
+
+
+
 
     @InitDefaultColunm(value = "0", javaType = JavaType.Integer)
     private Integer loginCount;
@@ -104,6 +125,12 @@ public class UserController extends CommonListController<UserVO> {
             }
         }
         return true;
+    }
+    @Override
+    public void beforeAddSave(UserVO vo, HttpServletRequest request) {
+//       if( vo.getIntegral().equals(1)){
+//           throw new BusinessException("积分不能为1");
+//       }
     }
 
 }
