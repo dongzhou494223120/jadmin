@@ -1,12 +1,12 @@
 spring:
   datasource:
-    url: jdbc:mysql://hulili.love:3306/hmdq?characterEncoding=utf8
-    username: hmdq
-    password: Q0UD#hvdaOYdV&84SSgDUyk&SkDodzJx
+#    url: jdbc:mysql://hulili.love:3306/hmdq?characterEncoding=utf8
+#    username: hmdq
+#    password: Q0UD#hvdaOYdV&84SSgDUyk&SkDodzJx
 
-#    url: jdbc:mysql://192.168.1.231:3306/jadmin?characterEncoding=utf8
-#    username: root
-#    password: nfdb2017
+    url: jdbc:mysql://192.168.1.231:3306/jadmin?characterEncoding=utf8
+    username: root
+    password: nfdb2017
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database: MYSQL

@@ -2,6 +2,7 @@ package com.jadmin.controller.admin.base.productManagement;
 
 import com.jadmin.modules.annotation.AdminPage;
 import com.jadmin.modules.annotation.column.FormColunm;
+import com.jadmin.modules.annotation.column.SelectShow;
 import com.jadmin.modules.annotation.column.TableColumn;
 import com.jadmin.modules.annotation.list.*;
 import com.jadmin.modules.controller.base.CommonListController;
@@ -38,7 +39,6 @@ public class ProductAdminController  extends CommonListController<ProductAdminVO
     @FormColunm(value = "类别名称")
     private String productName;
 
-    @TableColumn(selectCode = "userRole")
     @FormColunm(value = "系列名称")
     private String seriesName;
 
