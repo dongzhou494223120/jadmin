@@ -22,12 +22,12 @@ import javax.persistence.Column;
 @SearchMode()
 @DeleteMode(DeleteMode.DELETE) // 定义删除策略为真删
 @AdminPage(menu = AdminPageMenu.statisticalReport, name = "推荐人统计") // 声明后台管理页面左边的菜单属性，用来控制权限
-@FileConfig(selfJsp = {"edit"}) // 只通用 admin/common/date-list.jsp，edit跳到自己默认的jsp页面
-//@AdminPageNoButton({"toShow"}) // 声明页面中不需要的button，默认显示删除、添加、编辑 3个按钮
+//@FileConfig(selfJsp = {"edit"}) // 只通用 admin/common/date-list.jsp，edit跳到自己默认的jsp页面
+@AdminPageNoButton({"toUpdate", "toAdd","del"})// 声明页面中不需要的button，默认显示删除、添加、编辑 3个按钮
 public class AysStatisticsController extends CommonListController<AysStatisticsVO> {
 
 
-    @TableColumn(value = "推荐人")
+    @TableColumn(value = "推荐人",search = true)
     private String recommenderName;
 
     @TableColumn(value = "推荐次数")
