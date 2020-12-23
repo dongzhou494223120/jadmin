@@ -7,21 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05d5412-2735-42d8-9b0c-1b86a2678dd0" name="Default" comment="添加校验">
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc/hmdq.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/statisticalReport/AysStatisticsController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/AysStatisticsVO.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/ProductAdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/ProductAdminController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/MemorandumController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/MemorandumController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskLogController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskLogController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos2Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos2Controller.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos3Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos3Controller.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictkindController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictkindController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/OrgController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/OrgController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CommonListController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CommonListController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,46 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="back-button.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/JAdmin-Doc/html/back-button.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminPageButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/annotation/list/AdminPageButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryAdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/CategoryAdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectShow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/annotation/column/SelectShow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/userCenter/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +43,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductAdminController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductAdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/ProductAdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="363">
+              <caret line="32" column="72" lean-forward="true" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductAdminVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ProductAdminVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AysStatisticsVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/AysStatisticsVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AysStatisticsController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/statisticalReport/AysStatisticsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminPageMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/enumtype/AdminPageMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QrCreateController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/QrCode/QrCreateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryAdminVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="55" column="2" lean-forward="false" selection-start-line="55" selection-start-column="2" selection-end-line="63" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -244,6 +256,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/userCenter/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/ProductAdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/AysStatisticsVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/statisticalReport/AysStatisticsController.java" />
       </list>
     </option>
   </component>
@@ -324,86 +338,6 @@
             <path>
               <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="productManagement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="userCenter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -759,7 +693,7 @@
       <workItem from="1608620803601" duration="732000" />
       <workItem from="1608621583762" duration="14975000" />
       <workItem from="1608686217324" duration="11990000" />
-      <workItem from="1608714894201" duration="1465000" />
+      <workItem from="1608714894201" duration="3072000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1608458965711</created>
@@ -824,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608694002580</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加校验">
+      <created>1608721288850</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608721288850</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -833,7 +774,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107112000" />
+    <option name="totallyTimeSpent" value="108719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,7 +810,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29049677" sideWeight="0.49253732" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29049677" sideWeight="0.49253732" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23218143" sideWeight="0.5074627" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1083,27 +1024,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="167" column="23" lean-forward="false" selection-start-line="167" selection-start-column="19" selection-end-line="167" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/MemorandumController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/afterSaleCenter.java" />
-    <entry file="file://$PROJECT_DIR$/doc/JAdmin-Doc/layui/font/iconfont.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/SpecificationsAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1160,13 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/enumtype/AdminPageMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
@@ -1191,13 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="92" column="19" lean-forward="false" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/QrCode/QrCreateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1441,9 +1347,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/productManagement/ProductAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="363">
+          <caret line="32" column="72" lean-forward="true" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ProductAdminVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/enumtype/AdminPageMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/CategoryAdminVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="55" column="2" lean-forward="false" selection-start-line="55" selection-start-column="2" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/QrCode/QrCreateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/AysStatisticsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/statisticalReport/AysStatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
