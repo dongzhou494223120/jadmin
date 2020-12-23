@@ -6,6 +6,9 @@ import javax.persistence.Column;
 import javax.persistence.Query;
 import javax.servlet.http.HttpServletRequest;
 
+import com.jadmin.modules.itf.GeneralOperatUtils;
+import com.jadmin.util.UserAgentUtil;
+import com.jadmin.vo.entity.base.AysStatisticsVO;
 import org.apache.poi.ss.formula.functions.T;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -123,24 +126,45 @@ public class UserController extends CommonListController<UserVO> {
     }
 
     @Override
-    public void customChekSave(UserVO vo) {
+    public void customChekSave(UserVO vo, HttpServletRequest request) {
         //获取推荐人手机号码
         if (null == vo.getRecommender()) {
             throw new BusinessException("推荐人手机号码不能为空");
-        }else{
+        } else {
             //查询推荐人手机号码
-                Query query = systemDao.getEntityManager().createQuery("from UserVO where account = ? and billStatus = 1 and isDelete = 0 ");
-                query.setParameter(0, vo.getRecommender());
-                List<UserVO> list = query.getResultList();
-                if (list.isEmpty()) {
-                    throw new BusinessException("推荐人电话号码不存在！");
-                }
-            UserVO vo1=list.get(0);
-                if(!vo1.getRole().getRoleName().equals("分销商")){
-                    throw new BusinessException("该推荐人不是分销商角色！");
+            Query query = systemDao.getEntityManager().createQuery("from UserVO where account = ? and billStatus = 1 and isDelete = 0 ");
+            query.setParameter(0, vo.getRecommender());
+            List<UserVO> list = query.getResultList();
+            if (list.isEmpty()) {
+                throw new BusinessException("推荐人电话号码不存在！");
             }
-            vo.setRecommender(vo1.getName()+"("+vo1.getAccount()+")");
+            UserVO vo1 = list.get(0);
+            if (!vo1.getRole().getRoleName().equals("分销商")) {
+                throw new BusinessException("该推荐人不是分销商角色！");
+            }
+            vo.setRecommender(vo1.getName() + "(" + vo1.getAccount() + ")");
             vo.setRecommenderId(vo1.getUserId());
+
+            //查询与推荐人信息
+
+            Query query2 = systemDao.getEntityManager().createQuery("from AysStatisticsVO where recommenderId = ? and isDelete = 0 ");
+            query2.setParameter(0, vo1.getUserId());
+            List<AysStatisticsVO> sysList = query2.getResultList();
+            if (sysList.isEmpty()) {
+                AysStatisticsVO sysVo = new AysStatisticsVO();
+                sysVo.setIsDelete("0");
+                sysVo.setRecommenderCount(1);
+                sysVo.setRecommenderId(vo.getRecommenderId());
+                sysVo.setOperatorId(getClientENV(request.getSession()).getCurUser().getName());
+                sysVo.setRecommenderName(vo.getRecommender());
+                sysVo.setOperateTime(GeneralOperatUtils.getCurDateTime());
+                systemDao.save(sysVo);
+            } else {
+                AysStatisticsVO oldVo = sysList.get(0);
+                systemDao.upAysStatistics(oldVo.getId());
+            }
+
+
         }
 
     }

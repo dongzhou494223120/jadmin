@@ -143,7 +143,7 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
      *  保存时自定义校验
      * @param vo
      */
-    public void customChekSave(T vo) {
+    public void customChekSave(T vo,HttpServletRequest request) {
 
     }
 
@@ -338,7 +338,7 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
             if (StringUtils.isBlank(vo.getPrimaryKey())) {
                 initDefaultColunm(vo, request);
             }
-            customChekSave(vo);
+            customChekSave(vo,request);
             // 初始化request中通过baseWhere传输的属性，无论新增或者修改
             String baseWhere = request.getParameter("baseWhere");
             // 从新回到id=?的url中

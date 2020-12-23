@@ -60,6 +60,16 @@ public class SystemDao extends BaseBusinessDao{
     }
 
     /**
+     * 更新推荐次数 +1
+     * @param userId
+     * @return
+     */
+    public int upAysStatistics(String userId) {
+        String sql = "update sys_statistics set  operateTime = NOW(), recommenderCount = (recommenderCount + 1) where id= ? ";
+        return getJdbcTemplate().update(sql, new Object[] {userId});
+    }
+
+    /**
      * 获取所有的字典
      *
      * @param
