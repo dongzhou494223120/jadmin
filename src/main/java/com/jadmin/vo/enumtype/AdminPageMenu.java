@@ -12,7 +12,10 @@ public enum AdminPageMenu {
 	
 	system("", "&#xe653;"), // 一级菜单
     categoryCenter(system, "产品管理", "&#xe62e;"),
+    qrCode(system, "二维码", "&#xe62b;"),
 	userCenter(system, "用户管理", "&#xe62b;"),
+    afterSaleCenter(system, "售后管理", "&#xe62b;"),
+    statisticalReport(system, "统计报表", "&#xe634;"),
 	baseCenter(system, "系统管理", "&#xe62e;"),
     ;
 

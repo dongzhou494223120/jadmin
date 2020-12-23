@@ -93,6 +93,9 @@ public class UserVO extends AbstractValueObject {
 	@Column(length = 100)
 	private String recommender;
 
+	@Column(length = 100)
+	private String recommenderId;
+
 	@Column(length = 10)
 	private Integer integral;
 

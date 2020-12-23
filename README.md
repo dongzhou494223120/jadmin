@@ -20,3 +20,4 @@ JAdmin 基于以下开源框架，再次感谢：
 定时器：Quartz 2.3  
 日志管理：Logback 1.2.3、Log4j  
 前端框架：Hui.admin V3.1 （感谢jQuery、layer、laypage、Validform、UEditor、My97DatePicker、iconfont、Datatables、WebUploaded、icheck、highcharts、bootstrap-Switch）
+

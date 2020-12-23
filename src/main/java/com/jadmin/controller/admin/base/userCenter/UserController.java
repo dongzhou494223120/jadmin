@@ -3,6 +3,7 @@ package com.jadmin.controller.admin.base.userCenter;
 import java.util.List;
 
 import javax.persistence.Column;
+import javax.persistence.Query;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.poi.ss.formula.functions.T;
@@ -43,7 +44,6 @@ import com.jadmin.vo.enumtype.JavaType;
 public class UserController extends CommonListController<UserVO> {
 
 
-
     @FormColunm(value = "姓名")
     @TableColumn
     public String name;
@@ -65,10 +65,10 @@ public class UserController extends CommonListController<UserVO> {
     @FormColunm(value = "区域")
     private String region;
     @TableColumn
-    @FormColunm(value = "推荐人")
+    @FormColunm(value = "推荐人", initValue = "请输入推荐人手机号码")
     private String recommender;
     @TableColumn
-    @FormColunm(value = "积分",editShow=false)
+    @FormColunm(value = "积分", editShow = false)
     private Integer integral;
 
     @FormColunm(value = "所属部门", selectCode = "org", column = "org.orgId", selectStyle = "tree")
@@ -98,23 +98,18 @@ public class UserController extends CommonListController<UserVO> {
     private String lastLoginIp;
 
 
-
-
-
-
-
     @InitDefaultColunm(value = "0", javaType = JavaType.Integer)
     private Integer loginCount;
 
     @InitDefaultColunm(" ")
     private String lastLoginTime;
 
-	@InitDefaultColunm("")
-	private String psChangeTime;
+    @InitDefaultColunm("")
+    private String psChangeTime;
 
     @FormColunm(value = "描述", type = "textarea", length = 512, required = false)
     public String memo;
-    
+
     @Override
     public boolean beforeDelete(List<String> ids, HttpServletRequest request) {
         for (String id : ids) {
@@ -126,11 +121,28 @@ public class UserController extends CommonListController<UserVO> {
         }
         return true;
     }
+
     @Override
-    public void beforeAddSave(UserVO vo, HttpServletRequest request) {
-//       if( vo.getIntegral().equals(1)){
-//           throw new BusinessException("积分不能为1");
-//       }
+    public void customChekSave(UserVO vo) {
+        //获取推荐人手机号码
+        if (null == vo.getRecommender()) {
+            throw new BusinessException("推荐人手机号码不能为空");
+        }else{
+            //查询推荐人手机号码
+                Query query = systemDao.getEntityManager().createQuery("from UserVO where account = ? and billStatus = 1 and isDelete = 0 ");
+                query.setParameter(0, vo.getRecommender());
+                List<UserVO> list = query.getResultList();
+                if (list.isEmpty()) {
+                    throw new BusinessException("推荐人电话号码不存在！");
+                }
+            UserVO vo1=list.get(0);
+                if(!vo1.getRole().getRoleName().equals("分销商")){
+                    throw new BusinessException("该推荐人不是分销商角色！");
+            }
+            vo.setRecommender(vo1.getName()+"("+vo1.getAccount()+")");
+            vo.setRecommenderId(vo1.getUserId());
+        }
+
     }
 
 }
