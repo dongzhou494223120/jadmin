@@ -130,7 +130,7 @@ public class UserController extends CommonListController<UserVO> {
         //获取推荐人手机号码
        String  url= request.getRequestURL()+"";
        //编辑的时候只允许修改状态
-       if(url.endsWith("edit")){
+       if(!url.endsWith("edit")){
            if (null == vo.getRecommender()) {
                throw new BusinessException("推荐人手机号码不能为空");
            } else {

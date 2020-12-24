@@ -43,7 +43,7 @@ public class ProductAdminController  extends CommonListController<ProductAdminVO
     private String seriesName;
 
     @TableColumn
-    @FormColunm(value = "规格名称")
+    @FormColunm(value = "规格名称",selectCode = "category")
     private String specifName;
 
     @TableColumn

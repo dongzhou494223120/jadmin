@@ -394,13 +394,17 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
             }
             return redirect(url + urlType + idVal);
         } catch (Exception e) {
+            e.printStackTrace();
             log.error(e.getMessage(), e);
             request.setAttribute("errorMsg", getMessage(e));
             request.setAttribute("data", vo);
             request.setAttribute("数据", vo.toJson());
-            request.setAttribute("id", vo.getPrimaryKey());
+            String key=vo.getPrimaryKey();
+            request.setAttribute("id",key );
             String urlType = StringUtils.isBlank(vo.getPrimaryKey()) ? "toAdd" : "toUpdate";
-            return forward(url + "/" + urlType);
+
+            String returns=forward(url + "/" + urlType);
+            return returns;
         }
     }
 

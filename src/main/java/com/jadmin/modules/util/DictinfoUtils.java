@@ -87,7 +87,10 @@ public class DictinfoUtils {
 	private static DictkindVO getDictkindByCodeOrId(String code, String id, HttpServletRequest request) {
 		for (DictkindVO dVO : Commons.getInstance().getCacheVO().getDictkinds()) {
 			if(dVO.getCode().equals(code) || dVO.getDictkindId().equals(id)){
-				// 如果是动态的，就查询数据库
+				// 如果是动态的，
+				if(dVO.getCode().equals("category")){
+                  System.out.println(dVO);
+				}
 				if(dVO.getIsDynamic().equals("1")){
 		        	SystemDao systemDao = SpringContext.getBean(SystemDao.class);
 		        	dVO.setDictinfos(systemDao.getDictinfosBysql(dVO.getDynSql(), request));
