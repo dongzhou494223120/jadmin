@@ -144,26 +144,13 @@ public class UserController extends CommonListController<UserVO> {
             }
             vo.setRecommender(vo1.getName() + "(" + vo1.getAccount() + ")");
             vo.setRecommenderId(vo1.getUserId());
-
-            //查询与推荐人信息
-
-            Query query2 = systemDao.getEntityManager().createQuery("from AysStatisticsVO where recommenderId = ? and isDelete = 0 ");
-            query2.setParameter(0, vo1.getUserId());
-            List<AysStatisticsVO> sysList = query2.getResultList();
-            if (sysList.isEmpty()) {
-                AysStatisticsVO sysVo = new AysStatisticsVO();
-                sysVo.setIsDelete("0");
-                sysVo.setRecommenderCount(1);
-                sysVo.setRecommenderId(vo.getRecommenderId());
-                sysVo.setOperatorId(getClientENV(request.getSession()).getCurUser().getName());
-                sysVo.setRecommenderName(vo.getRecommender());
-                sysVo.setOperateTime(GeneralOperatUtils.getCurDateTime());
-                systemDao.save(sysVo);
-            } else {
-                AysStatisticsVO oldVo = sysList.get(0);
-                systemDao.upAysStatistics(oldVo.getId());
+            String createName = getCurUser(request.getSession()).getName();
+            //推荐人次数加1
+            try{
+                systemDao.saveAysStatistics(createName,vo1.getUserId(),vo.getRecommenderId(),vo.getRecommender());
+            }catch (Exception e){
+                throw new BusinessException("保存推荐人信息失败！");
             }
-
 
         }
 

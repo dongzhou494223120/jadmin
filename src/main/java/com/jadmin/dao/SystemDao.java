@@ -7,6 +7,8 @@ import java.util.Map;
 import javax.persistence.Query;
 import javax.servlet.http.HttpServletRequest;
 
+import com.jadmin.modules.itf.GeneralOperatUtils;
+import com.jadmin.vo.entity.base.*;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
@@ -16,26 +18,22 @@ import com.jadmin.modules.dao.base.BaseBusinessDao;
 import com.jadmin.modules.exception.BusinessException;
 import com.jadmin.modules.util.DictinfoUtils;
 import com.jadmin.modules.util.encode.Encode;
-import com.jadmin.vo.entity.base.ConfigVO;
-import com.jadmin.vo.entity.base.DictinfoVO;
-import com.jadmin.vo.entity.base.DictkindVO;
-import com.jadmin.vo.entity.base.UserVO;
 import com.jadmin.vo.enumtype.YesNo;
 
 import lombok.extern.slf4j.Slf4j;
 
-/** 
+/**
  * @Title:web框架
  * @Description:系统dao
  * @Copyright:JAdmin (c) 2018年08月21日
- * 
  * @author:-jiujiya
- * @version:1.0 
+ * @version:1.0
  */
-@Transactional @Repository
+@Transactional
+@Repository
 @Slf4j
-public class SystemDao extends BaseBusinessDao{
-    
+public class SystemDao extends BaseBusinessDao {
+
     /**
      * 系统设置通过code获得值
      *
@@ -47,26 +45,28 @@ public class SystemDao extends BaseBusinessDao{
         List<ConfigVO> list = query.getResultList();
         return list;
     }
-    
+
     /**
      * 更新登陆信息
+     *
      * @param ip
      * @param userId
      * @return
      */
     public int upLastLogin(String ip, String userId) {
         String sql = "update sys_user set lastLoginIp = ?, lastLoginTime = NOW(), loginCount = (loginCount + 1) where userId= ? ";
-        return getJdbcTemplate().update(sql, new Object[] {ip, userId});
+        return getJdbcTemplate().update(sql, new Object[]{ip, userId});
     }
 
     /**
      * 更新推荐次数 +1
+     *
      * @param userId
      * @return
      */
     public int upAysStatistics(String userId) {
         String sql = "update sys_statistics set  operateTime = NOW(), recommenderCount = (recommenderCount + 1) where id= ? ";
-        return getJdbcTemplate().update(sql, new Object[] {userId});
+        return getJdbcTemplate().update(sql, new Object[]{userId});
     }
 
     /**
@@ -163,14 +163,14 @@ public class SystemDao extends BaseBusinessDao{
         List<Map<String, Object>> list = getJdbcTemplate().queryForList(sql);
         List<DictinfoVO> dictinfos = new ArrayList<DictinfoVO>();
         for (Map<String, Object> map : list) {
-        	String rId = (String) map.get("rId");
+            String rId = (String) map.get("rId");
             String id = (String) map.get("id");
             String nocheck = (String) map.get("nocheck");
             DictinfoVO vo = new DictinfoVO();
             vo.setName((String) map.get("name"));
             vo.setDictinfoFid((String) map.get("pId"));
-            if(StringUtils.isBlank(rId)) {
-            	rId = id;
+            if (StringUtils.isBlank(rId)) {
+                rId = id;
             }
             vo.setCode(rId);
             vo.setPrimaryKey(id);
@@ -194,20 +194,49 @@ public class SystemDao extends BaseBusinessDao{
 
     /**
      * 获取最大的机构编号
+     *
      * @return
      */
     public String getOrgMaxCode() {
         String sql = "SELECT MAX(CODE) FROM SYS_ORG WHERE BILLSTATUS = '1'";
         return getJdbcTemplate().queryForObject(sql, String.class);
     }
-	
-	/**
-	 * 获取备忘笺
-	 * @param userId
-	 * @param count
-	 */
-	public List<?> getMemorandum(String userId, int first, int count) {
-		String hql = " from MemorandumVO where operatorId = '" + userId + "' and isDelete = 0 order by operateTime desc ";
-		return queryPageList(hql, first, count);
-	}
+
+    /**
+     * 保存推荐人信息
+     *
+     * @param createName    当前登录人
+     * @param userId        用户表的主键
+     * @param recommenderId 推荐人id
+     * @param recommender
+     */
+    public void saveAysStatistics(String createName, String userId, String recommenderId, String recommender) throws Exception {
+        Query query = this.getEntityManager().createQuery("from AysStatisticsVO where recommenderId = ? and isDelete = 0 ");
+        query.setParameter(0, userId);
+        List<AysStatisticsVO> sysList = query.getResultList();
+        if (sysList.isEmpty()) {
+            AysStatisticsVO sysVo = new AysStatisticsVO();
+            sysVo.setIsDelete("0");
+            sysVo.setRecommenderCount(1);
+            sysVo.setRecommenderId(recommenderId);
+            sysVo.setOperatorId(createName);
+            sysVo.setRecommenderName(recommender);
+            sysVo.setOperateTime(GeneralOperatUtils.getCurDateTime());
+            this.save(sysVo);
+        } else {
+            AysStatisticsVO oldVo = sysList.get(0);
+            this.upAysStatistics(oldVo.getId());
+        }
+    }
+
+    /**
+     * 获取备忘笺
+     *
+     * @param userId
+     * @param count
+     */
+    public List<?> getMemorandum(String userId, int first, int count) {
+        String hql = " from MemorandumVO where operatorId = '" + userId + "' and isDelete = 0 order by operateTime desc ";
+        return queryPageList(hql, first, count);
+    }
 }
