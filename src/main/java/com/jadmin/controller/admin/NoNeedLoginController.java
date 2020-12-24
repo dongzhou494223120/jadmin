@@ -7,6 +7,7 @@ import com.jadmin.modules.util.DictinfoUtils;
 import com.jadmin.vo.entity.base.CategoryAdminVO;
 import com.jadmin.vo.entity.base.DictkindVO;
 import net.sf.json.JSONObject;
+import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -42,7 +43,7 @@ public class NoNeedLoginController extends BaseAbstractController {
     }
 
     /**
-     * 登陆的具体操作
+     * 登录用户
      *
      * @return
      */
