@@ -123,8 +123,11 @@ public class SystemDao extends BaseBusinessDao {
         if (vo.getRole() == null) {
             throw new BusinessException("该用户未分配角色，无法登陆！");
         }
-        if (vo.getRole().getBillStatus().equals(YesNo.NO.getShort().toString())) {
+        if (vo.getRole().getBillStatus().equals(YesNo.NO.getCode())) {
             throw new BusinessException("该用户分配的角色已被停用，无法登陆！");
+        }
+        if (vo.getRole().getBillStatus().equals(YesNo.EXAMINE.getCode())) {
+            throw new BusinessException("该用户待审核，无法登陆！");
         }
         return vo;
     }

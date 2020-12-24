@@ -3,6 +3,7 @@ D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\AdminPageNoButton.jav
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\productManagement\ProductAdminController.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\SysTaskLogVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\ConfigTagValue.java
+D:\jadmin\src\main\java\com\jadmin\controller\admin\WeChatController.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\DictinfoUtils.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\ProductAdminVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageFormColumnVO.java
@@ -19,6 +20,7 @@ D:\jadmin\src\main\java\com\jadmin\modules\annotation\NoNeedLogin.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\base\JAdminProperties.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\SysTaskController.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\quartz\EnableQuartz.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\WeChatVO\WeChatBaseDTO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageButtonVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\quartz\base\BaseJob.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\quartz\MyTriggerListener.java
@@ -38,12 +40,18 @@ D:\jadmin\src\main\java\com\jadmin\modules\annotation\quartz\DJob.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\CategoryAdminVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\SysTaskVO.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\userCenter\RoleController.java
+D:\jadmin\src\main\java\com\jadmin\util\WeChatUtil.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\WeChatVO\menu\ButtonVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageMenuVO.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\dictkind\DictKindDictinfos2Controller.java
+D:\jadmin\src\main\java\com\jadmin\util\conn\HttpUtil.java
 D:\jadmin\src\main\java\com\jadmin\modules\exception\AlertBusinessException.java
+D:\jadmin\src\main\java\com\jadmin\controller\admin\base\QrCode\QrCreateController.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\UnEditColunm.java
+D:\jadmin\src\main\java\com\jadmin\controller\admin\base\statisticalReport\AysStatisticsController.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\StartCacheUtil.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\OrgVO.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\WeChatVO\WeChatResultDTO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageTableColumnVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\DateTag.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\dictkind\DictkindController.java
@@ -66,6 +74,8 @@ D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\GetTagValue.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\base\aop\InitPageNameService.java
 D:\jadmin\src\main\java\com\jadmin\WebApplication.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\FileConfig.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\WeChatVO\menu\WeChatMenuVO.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\WeChatVO\WeChatOutMsgDTO.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\LogVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\DivTag.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\StaticPageUtils.java
@@ -75,6 +85,7 @@ D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\dictkind\DictKin
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\tool\ClientENV.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\GetTableTag.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\base\Null.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\WeChatVO\ArticlesItem.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\userCenter\OrgController.java
 D:\jadmin\src\main\java\com\jadmin\dao\SystemDao.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\Power.java
@@ -95,6 +106,7 @@ D:\jadmin\src\main\java\com\jadmin\util\JsonUtil.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\AdminPage.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\encode\DES.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\dictkind\DictKindDictinfos3Controller.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\WeChatVO\WeChatInMsgDTO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\SearchMode.java
 D:\jadmin\src\main\java\com\jadmin\util\conn\ConnectionUtils.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\MemorandumVO.java
@@ -113,6 +125,7 @@ D:\jadmin\src\main\java\com\jadmin\vo\entity\base\ConfigVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\exception\BusinessException.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\start\StartBusiness.java
 D:\jadmin\src\main\java\com\jadmin\modules\dao\base\BaseBusinessDao.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\base\AysStatisticsVO.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\NoNeedLoginController.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\tool\Page.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\StartCache.java

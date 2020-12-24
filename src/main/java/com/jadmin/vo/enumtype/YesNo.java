@@ -10,12 +10,14 @@ package com.jadmin.vo.enumtype;
  */
 public enum YesNo {
     
-    YES((short)1, "是"),
-    
-    NO((short)0, "否");
+    YES("1", "是"),
+    EXAMINE("2", "审核"),
+    NO("0", "否");
+
+
 
     /** code */
-    private Short code;
+    private String code;
 
     /** 显示标签 */
     private String label;
@@ -24,7 +26,7 @@ public enum YesNo {
      * 构造器，必须私有
      * @param code
      */
-    YesNo(Short code, String label){
+    YesNo(String code, String label){
         this.code = code;
         this.label = label;
     }
@@ -34,7 +36,7 @@ public enum YesNo {
      * @param code
      * @return
      */
-    public static String getLabelByCode (Short code){
+    public static String getLabelByCode (String code){
         for (YesNo enuma : YesNo.values()){
             if (enuma.getCode().compareTo(code) == 0){
                 return enuma.getLabel();
@@ -45,7 +47,7 @@ public enum YesNo {
     /**
      * 根据文本获取code
      */
-    public static Short getCodeByLabel(String label){
+    public static String getCodeByLabel(String label){
         for(YesNo enuma : YesNo.values()){
             if(enuma.getLabel().equals(label)){
                 return enuma.getCode();
@@ -54,19 +56,19 @@ public enum YesNo {
         return null;
         
     }
-    public String toString(){
-        return label;
-    }
+//    public String toString(){
+//        return label;
+//    }
 
     public String getLabel() {
         return label;
     }
 
-    public Short getShort(){
+    public String getShort(){
         return this.code;
     }
 
-    public Short getCode(){
+    public String getCode(){
         return this.code;
     }
   

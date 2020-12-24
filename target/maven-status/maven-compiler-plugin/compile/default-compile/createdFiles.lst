@@ -1,4 +1,5 @@
 com\jadmin\modules\annotation\list\Power.class
+com\jadmin\vo\entity\WeChatVO\menu\WeChatMenuVO.class
 com\jadmin\quartz\HelloJob.class
 com\jadmin\vo\entity\base\ConfigVO.class
 com\jadmin\vo\entity\base\OrgVO.class
@@ -13,6 +14,7 @@ com\jadmin\vo\fundation\tool\Page.class
 com\jadmin\controller\admin\base\system\dictkind\CommonDictinfosController.class
 com\jadmin\util\conn\ConnectionUtils.class
 com\jadmin\vo\entity\base\RoleVO.class
+com\jadmin\vo\entity\WeChatVO\WeChatOutMsgDTO.class
 com\jadmin\vo\fundation\controller\AdminPageVO.class
 com\jadmin\modules\controller\start\StartBusiness.class
 com\jadmin\modules\itf\GeneralOperatUtils.class
@@ -40,14 +42,19 @@ com\jadmin\controller\admin\base\system\SysTaskLogController.class
 com\jadmin\modules\util\ClassUtil.class
 com\jadmin\vo\entity\base\SysTaskVO.class
 com\jadmin\modules\annotation\column\InitDefaultColunm.class
+com\jadmin\vo\entity\WeChatVO\WeChatBaseDTO.class
 com\jadmin\controller\admin\base\system\dictkind\DictKindDictinfos2Controller.class
 com\jadmin\controller\admin\base\productManagement\ProductAdminController.class
 com\jadmin\modules\exception\BusinessException.class
 com\jadmin\dao\SystemDao.class
+com\jadmin\vo\entity\WeChatVO\WeChatResultDTO.class
 com\jadmin\vo\fundation\base\AbstractValueObject.class
 com\jadmin\controller\admin\base\userCenter\UserController.class
+com\jadmin\vo\entity\WeChatVO\menu\ButtonVO.class
 com\jadmin\vo\enumtype\AdminPageMenu.class
+com\jadmin\util\WeChatUtil.class
 com\jadmin\modules\dao\base\BaseBusinessDao$2.class
+com\jadmin\controller\admin\WeChatController.class
 com\jadmin\modules\util\ConfigUtil.class
 com\jadmin\controller\admin\NoNeedLoginController.class
 com\jadmin\vo\entity\ref\OrgRefVO.class
@@ -62,6 +69,7 @@ com\jadmin\modules\util\quartz\JobFactory.class
 com\jadmin\vo\enumtype\JavaType.class
 com\jadmin\modules\controller\tag\ConfigTagValue.class
 com\jadmin\modules\annotation\list\ButtonTablePage.class
+com\jadmin\vo\entity\WeChatVO\ArticlesItem.class
 com\jadmin\vo\fundation\controller\AdminPageMenuVO.class
 com\jadmin\util\JsonUtil.class
 com\jadmin\vo\fundation\controller\AdminPageSearch2VO.class
@@ -79,7 +87,9 @@ com\jadmin\modules\util\AdminPageUtils$2.class
 com\jadmin\controller\admin\base\userCenter\OrgController.class
 com\jadmin\vo\fundation\base\JAdminProperties.class
 com\jadmin\modules\annotation\list\FileConfig.class
+com\jadmin\controller\admin\base\QrCode\QrCreateController.class
 com\jadmin\vo\enumtype\Regular.class
+com\jadmin\util\conn\HttpUtil.class
 com\jadmin\modules\annotation\list\SinglePage.class
 com\jadmin\controller\admin\base\system\LogController.class
 com\jadmin\modules\annotation\column\SearchColumn.class
@@ -101,8 +111,10 @@ com\jadmin\modules\controller\base\aop\LogService.class
 com\jadmin\modules\annotation\list\AdminPageNoButton.class
 com\jadmin\vo\entity\base\SpecifAdminVO.class
 com\jadmin\vo\entity\base\DictinfoVO.class
+com\jadmin\controller\admin\base\statisticalReport\AysStatisticsController.class
 com\jadmin\vo\fundation\controller\ReportCol.class
 com\jadmin\modules\controller\tag\SelectTag.class
+com\jadmin\vo\entity\WeChatVO\WeChatInMsgDTO.class
 com\jadmin\controller\admin\base\system\SysTaskController.class
 com\jadmin\modules\dao\base\BaseBusinessDao.class
 com\jadmin\controller\admin\base\productManagement\CategoryAdminController.class
@@ -132,6 +144,7 @@ com\jadmin\modules\controller\tag\DateTag.class
 com\jadmin\vo\entity\base\ProductAdminVO.class
 com\jadmin\vo\fundation\tool\BeanProperty.class
 com\jadmin\modules\controller\base\aop\InitPageNameService.class
+com\jadmin\vo\entity\base\AysStatisticsVO.class
 com\jadmin\modules\annotation\NoNeedLogin.class
 com\jadmin\vo\entity\base\CategoryAdminVO.class
 com\jadmin\vo\fundation\controller\ReportPage.class
