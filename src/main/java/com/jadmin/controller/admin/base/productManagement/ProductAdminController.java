@@ -35,15 +35,16 @@ public class ProductAdminController  extends CommonListController<ProductAdminVO
     @TableColumn
     private String seq;
 
-
-    @FormColunm(value = "类别名称")
+    @TableColumn
+    @FormColunm(value = "名称")
     private String productName;
 
-    @FormColunm(value = "系列名称")
+    @TableColumn
+    @FormColunm(value = "类别名称",selectCode = "CATEGORY")
     private String seriesName;
 
     @TableColumn
-    @FormColunm(value = "规格名称",selectCode = "category")
+    @FormColunm(value = "规格名称",selectCode = "SPECIF")
     private String specifName;
 
     @TableColumn

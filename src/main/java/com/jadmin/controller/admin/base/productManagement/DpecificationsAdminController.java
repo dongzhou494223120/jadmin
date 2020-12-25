@@ -27,7 +27,7 @@ import java.util.List;
 @AdminPage(menu = AdminPageMenu.categoryCenter, name = "规格管理") // 声明后台管理页面左边的菜单属性，用来控制权限
 @FileConfig(selfJsp = {"edit"}) // 只通用 admin/common/date-list.jsp，edit跳到自己默认的jsp页面
 @AdminPageNoButton({"toShow"}) // 声明页面中不需要的button，默认显示删除、添加、编辑 3个按钮
-public class SpecificationsAdminController extends CommonListController<CategoryAdminVO> {
+public class DpecificationsAdminController extends CommonListController<CategoryAdminVO> {
 
     @FormColunm(value = "编号")
     @TableColumn

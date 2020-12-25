@@ -127,6 +127,8 @@
 					<p>
 						当前角色：<%= userVO.getRole().getRoleName() %></p>
 					<p>
+						用户积分：<%= userVO.getIntegral() %></p>
+					<p>
 						登录次数：<%= userVO.getLoginCount() %></p>
 					<p>
 						上次登录IP：<%= userVO.getLastLoginIp() %></p>
