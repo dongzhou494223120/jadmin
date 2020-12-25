@@ -66,17 +66,16 @@ public class WeChatController  extends BaseAbstractController {
         }else if(weChatInMsgDTO.getMsgType().equals("event")){
             if(weChatInMsgDTO.getEvent().equals("subscribe")){
                 out.setMsgType("news");
-
                 ArticlesItem item=new ArticlesItem();
-                item.setTitle("你是xxx？？");
-                item.setPicUrl("https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png");
-                item.setDescription("有困难找警察，有问题找度娘！关注百度不迷路");
-                item.setUrl("https://www.baidu.com/");
+                item.setTitle("汇迈电气");
+                item.setPicUrl("https://kcapifiletest.oss-cn-hangzhou.aliyuncs.com/23443eb43497106080a0b6a0429cdadb.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150");
+                item.setDescription("你好,欢迎关注汇迈电气！了解汇迈电气");
+                item.setUrl("http://www.wawechat.siemens.com.cn/Home/Product/ssy_product");
                 out.setItem(new ArticlesItem[]{item} );
                 out.setArticleCount(out.getItem().length);
-            }else if(weChatInMsgDTO.getEvent().equals("subscribe")){
+            }else if(weChatInMsgDTO.getEvent().equals("unsubscribe")){
                 out.setMsgType("text");
-                out.setContent("走好不送！");
+                out.setContent("亲！记得下次关注哦");
             }
         }
         return WeChatUtil.obj2XML(out);

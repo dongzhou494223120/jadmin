@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import com.jadmin.modules.itf.GeneralOperatUtils;
 import com.jadmin.util.UserAgentUtil;
 import com.jadmin.vo.entity.base.AysStatisticsVO;
+import org.apache.commons.lang.StringUtils;
 import org.apache.poi.ss.formula.functions.T;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -47,7 +48,7 @@ import com.jadmin.vo.enumtype.JavaType;
 public class UserController extends CommonListController<UserVO> {
 
 
-    @FormColunm(value = "姓名",edit = "false")
+    @FormColunm(value = "姓名", edit = "false")
     @TableColumn
     public String name;
 
@@ -56,25 +57,25 @@ public class UserController extends CommonListController<UserVO> {
     @UniqueColunm // 账号唯一性效验
     public String account;
 
-    @FormColunm(value = "性别", selectCode = "sex", selectStyle = "icheck",edit = "false")
+    @FormColunm(value = "性别", selectCode = "sex", selectStyle = "icheck", edit = "false")
     @TableColumn(search = true)
     public String sex;
 
-    @FormColunm(value = "所属角色", selectCode = "userRole", column = "role.roleId",edit = "false")
+    @FormColunm(value = "所属角色", selectCode = "userRole", column = "role.roleId", edit = "false")
     @TableColumn(search = true)
     public String roleId;
 
     @TableColumn
-    @FormColunm(value = "区域",edit = "false")
+    @FormColunm(value = "区域", edit = "false")
     private String region;
     @TableColumn
-    @FormColunm(value = "推荐人", initValue = "请输入推荐人手机号码",edit = "false")
+    @FormColunm(value = "推荐人", initValue = "请输入推荐人手机号码", edit = "false")
     private String recommender;
     @TableColumn
     @FormColunm(value = "积分", editShow = false)
     private Integer integral;
 
-    @FormColunm(value = "所属部门", selectCode = "org", column = "org.orgId", selectStyle = "tree",edit = "false")
+    @FormColunm(value = "所属部门", selectCode = "org", column = "org.orgId", selectStyle = "tree", edit = "false")
     @TableColumn
     public String orgId;
 
@@ -128,43 +129,37 @@ public class UserController extends CommonListController<UserVO> {
     @Override
     public void customChekSave(UserVO vo, HttpServletRequest request) {
         //获取推荐人手机号码
-       String  url= request.getRequestURL()+"";
-       //编辑的时候只允许修改状态
-       if(!url.endsWith("edit")){
-           if (null == vo.getRecommender()) {
-               throw new BusinessException("推荐人手机号码不能为空");
-           } else {
-               //查询推荐人手机号码
-               Query query = systemDao.getEntityManager().createQuery("from UserVO where account = ? and billStatus = 1 and isDelete = 0 ");
-               query.setParameter(0, vo.getRecommender());
-               List<UserVO> list = query.getResultList();
-               if (list.isEmpty()) {
-                   throw new BusinessException("推荐人电话号码不存在！");
-               }
-               UserVO vo1 = list.get(0);
-               if (!vo1.getRole().getRoleName().equals("分销商")) {
-                   throw new BusinessException("该推荐人不是分销商角色！");
-               }
-               vo.setRecommender(vo1.getName() + "(" + vo1.getAccount() + ")");
-               vo.setRecommenderId(vo1.getUserId());
-               String createName = getCurUser(request.getSession()).getName();
-               //推荐人次数加1
-               try{
-                   systemDao.saveAysStatistics(createName,vo1.getUserId(),vo.getRecommenderId(),vo.getRecommender());
-               }catch (Exception e){
-                   throw new BusinessException("保存推荐人信息失败！");
-               }
+        String url = StringUtils.isBlank(vo.getPrimaryKey()) ? "toAdd" : "edit";
+        //编辑的时候只允许修改状态
+        if (url.endsWith("toAdd")) {
+            if (null == vo.getRecommender()) {
+                throw new BusinessException("推荐人手机号码不能为空");
+            } else {
+                //添加时 积分默认为0
+                vo.setIntegral(0);
+                //查询推荐人手机号码
+                Query query = systemDao.getEntityManager().createQuery("from UserVO where account = ? and billStatus = 1 and isDelete = 0 ");
+                query.setParameter(0, vo.getRecommender());
+                List<UserVO> list = query.getResultList();
+                if (list.isEmpty()) {
+                    throw new BusinessException("推荐人电话号码不存在！");
+                }
+                UserVO vo1 = list.get(0);
+                if (!vo1.getRole().getRoleName().equals("分销商")) {
+                    throw new BusinessException("该推荐人不是分销商角色！");
+                }
+                vo.setRecommender(vo1.getName() + "(" + vo1.getAccount() + ")");
+                vo.setRecommenderId(vo1.getUserId());
+                String createName = getCurUser(request.getSession()).getName();
+                //推荐人次数加1
+                try {
+                    systemDao.saveAysStatistics(createName, vo1.getUserId(), vo.getRecommenderId(), vo.getRecommender());
+                } catch (Exception e) {
+                    throw new BusinessException("保存推荐人信息失败！");
+                }
 
-           }
-       }else{
-           vo.setRecommender(null);
-           vo.setPassword(null);
-           vo.setSex(null);
-           vo.setPassword(null);
-           vo.setAccount(null);
-           vo.setRegion(null);
-
-       }
+            }
+        }
 
 
     }
