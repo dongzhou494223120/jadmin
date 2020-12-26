@@ -40,7 +40,7 @@ public class CommonController extends BaseAbstractController {
 
 	@Autowired
 	private SystemDao systemDao;
-	
+
 	/**
 	 * @param request
 	 * @return
@@ -48,14 +48,14 @@ public class CommonController extends BaseAbstractController {
 	@RequestMapping({ "/admin" })
 	public String admin(HttpServletRequest request) {
 		// 給据用户角色获取权限 获取用户拥有的菜单、页面、按钮
-		UserVO user = getCurUser(request.getSession());	
+		UserVO user = getCurUser(request.getSession());
 		List<AdminPageMenuVO> menus = AdminPageUtils.getHasAdminPageMenus(user.getRole());
 		request.setAttribute("menus", menus);
 		getClientENV(request.getSession()).setAdminPageMenus(menus);
 		request.setAttribute("mustPsChange", getMustPsChange(user));
 		return "admin/index";
 	}
-	
+
 	/**
 	 * 查看是否需要修改密码
 	 * @param user
@@ -71,7 +71,7 @@ public class CommonController extends BaseAbstractController {
 		}
 		return false;
 	}
-	
+
 	/**
 	 * 我的桌面
 	 * @return
@@ -83,7 +83,7 @@ public class CommonController extends BaseAbstractController {
         request.setAttribute("memorandums", systemDao.getMemorandum(curUser.getUserId(), 1, 5));
 		return "admin/welcome";
 	}
-	
+
 	/**
 	 * @param request
 	 * @return
@@ -109,7 +109,7 @@ public class CommonController extends BaseAbstractController {
 		request.getSession().invalidate();
 		return "admin/login";
 	}
-	
+
 	/**
 	 * 跳转到修改密码页面
 	 */
@@ -117,7 +117,7 @@ public class CommonController extends BaseAbstractController {
 	public String toPwd(String account, String password, HttpServletRequest request) {
 		return "admin/common/pwd";
 	}
-	
+
 	/**
 	 * 修改密码操作
 	 * @author zh
@@ -139,8 +139,8 @@ public class CommonController extends BaseAbstractController {
 		}else{
 			return userVO.toString();
 		}
-	} 
-	
+	}
+
 	 /**
 	 * 跳转到重置密码页面，重置密码不需要输入老密码验证
 	 * @author zh
@@ -158,7 +158,7 @@ public class CommonController extends BaseAbstractController {
 			return "修改失败!";
 		}
 	}
-	
+
 	/**
 	 * 保存便签
 	 */
@@ -180,7 +180,7 @@ public class CommonController extends BaseAbstractController {
 		map.put("id", vo.getPrimaryKey());
 		return map;
 	}
-	
+
 	/**
 	 * 保存便签
 	 */
@@ -201,7 +201,7 @@ public class CommonController extends BaseAbstractController {
 		}
 		return map;
 	}
-	
+
 	/**
 	 * 编辑器上传图片
 	 * @return
@@ -231,5 +231,18 @@ public class CommonController extends BaseAbstractController {
 		return vo.getTreeJsonList();
 	}
 
+	/**
+	 * 保存便签
+	 */
+	@RequestMapping(value="/downloadQRcodee")
+	public @ResponseBody Object downloadQRcode(QrCodeVO vo,HttpServletRequest request){
+		Map<String, Object> rMap = new HashMap<>();
+
+		System.out.println(vo.toString());
+			rMap.put("error", 0);
+			rMap.put("message", "成功");
+			rMap.put("link","/welcome");
+		return getJsonMap(rMap);
+	}
 
 }

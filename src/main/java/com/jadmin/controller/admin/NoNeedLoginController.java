@@ -21,6 +21,9 @@ import com.jadmin.modules.util.StaticPageUtils;
 import com.jadmin.util.UserAgentUtil;
 import com.jadmin.vo.entity.base.UserVO;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @Title:web框架
  * @Description:无需登录就能访问的控制层
@@ -84,9 +87,13 @@ public class NoNeedLoginController extends BaseAbstractController {
      */
     @RequestMapping(value = "/getDictionaries")
     public @ResponseBody
-    Object getCode(HttpServletRequest request, String code) {
-        DictkindVO vo = DictinfoUtils.getDictkind(code, request);
-        return vo.getTreeJsonList();
+    Object getCode(HttpServletRequest request) {
+        DictkindVO vo = DictinfoUtils.getDictkind("REFERENCES", request);
+        DictkindVO vo1 = DictinfoUtils.getDictkind("CATEGORY", request);
+        Map<String, Object> map = new HashMap<>();
+        map.put("REFERENCES", vo.getDictinfoLevels());
+        map.put("CATEGORY", vo1.getDictinfoLevels());
+        return map;
     }
 
     /**

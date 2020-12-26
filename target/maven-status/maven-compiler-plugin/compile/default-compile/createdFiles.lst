@@ -150,6 +150,7 @@ com\jadmin\modules\annotation\NoNeedLogin.class
 com\jadmin\vo\entity\base\CategoryAdminVO.class
 com\jadmin\vo\fundation\controller\ReportPage.class
 com\jadmin\modules\annotation\list\SearchMode.class
+com\jadmin\util\QRCodeUtil.class
 com\jadmin\modules\util\StaticPageUtils.class
 com\jadmin\modules\annotation\list\AdminPageButton.class
 com\jadmin\vo\fundation\tool\ClientENV.class

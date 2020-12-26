@@ -71,6 +71,7 @@ D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\SelectTagValue.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\TableColumn.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\GetTagValue.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\base\aop\InitPageNameService.java
+D:\jadmin\src\main\java\com\jadmin\util\QRCodeUtil.java
 D:\jadmin\src\main\java\com\jadmin\WebApplication.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\FileConfig.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\WeChatVO\menu\WeChatMenuVO.java
