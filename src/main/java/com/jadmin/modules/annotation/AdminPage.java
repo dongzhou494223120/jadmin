@@ -36,4 +36,6 @@ public @interface AdminPage {
 	
     /** 自动刷新页面，单位为秒，目前只有当前页面为通用list页面时才生效 */
 	String refreshTime() default "";
+    /************ 默认跳转路由*********/
+    String openUrl() default "";
 }

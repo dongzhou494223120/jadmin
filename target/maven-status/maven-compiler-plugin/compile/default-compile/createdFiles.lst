@@ -51,6 +51,7 @@ com\jadmin\vo\entity\WeChatVO\WeChatResultDTO.class
 com\jadmin\vo\fundation\base\AbstractValueObject.class
 com\jadmin\controller\admin\base\userCenter\UserController.class
 com\jadmin\vo\entity\WeChatVO\menu\ButtonVO.class
+com\jadmin\controller\admin\base\productManagement\DpecificationsAdminController.class
 com\jadmin\vo\enumtype\AdminPageMenu.class
 com\jadmin\util\WeChatUtil.class
 com\jadmin\modules\dao\base\BaseBusinessDao$2.class
@@ -149,7 +150,6 @@ com\jadmin\modules\annotation\NoNeedLogin.class
 com\jadmin\vo\entity\base\CategoryAdminVO.class
 com\jadmin\vo\fundation\controller\ReportPage.class
 com\jadmin\modules\annotation\list\SearchMode.class
-com\jadmin\controller\admin\base\productManagement\SpecificationsAdminController.class
 com\jadmin\modules\util\StaticPageUtils.class
 com\jadmin\modules\annotation\list\AdminPageButton.class
 com\jadmin\vo\fundation\tool\ClientENV.class

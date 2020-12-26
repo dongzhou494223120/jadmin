@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @TableHql(value = "isDelete = 0", orderBy = "operateTime desc")
 @SearchMode()
 @DeleteMode(DeleteMode.DELETE) // 定义删除策略为真删
-@AdminPage(menu = AdminPageMenu.qrCode, name = "二维码生成") // 声明后台管理页面左边的菜单属性，用来控制权限
+@AdminPage(menu = AdminPageMenu.qrCode, name = "二维码生成",openUrl = "admin/business/qrCode/data-list") // 声明后台管理页面左边的菜单属性，用来控制权限
 @FileConfig(selfJsp = {"edit"}) // 只通用 admin/common/date-list.jsp，edit跳到自己默认的jsp页面
-@AdminPageNoButton({"toShow"}) // 声明页面中不需要的button，默认显示删除、添加、编辑 3个按钮
+@AdminPageNoButton({""}) // 声明页面中不需要的button，默认显示删除、添加、编辑 3个按钮
 public class QrCreateController extends CommonListController<CategoryAdminVO> {
 }

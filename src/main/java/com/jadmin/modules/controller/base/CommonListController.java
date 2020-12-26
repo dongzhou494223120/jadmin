@@ -67,13 +67,12 @@ import com.jadmin.vo.fundation.tool.Page;
 
 import lombok.extern.slf4j.Slf4j;
 
-/** 
+/**
  * @Title:web框架
  * @Description:有增删改列表的控制层基类
  * @Copyright:JAdmin (c) 2018年11月26日
- * 
  * @author:-jiujiya
- * @version:1.0 
+ * @version:1.0
  */
 @Controller
 @Slf4j
@@ -83,7 +82,7 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
      * 当数据发生改变后的操作，包括增删改
      */
     public void afterDataChange() {
-    	
+
     }
 
     /**
@@ -93,7 +92,7 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
      * @param request
      */
     public void beforeEditSave(T vo, HttpServletRequest request) {
-    	
+
     }
 
     /**
@@ -105,7 +104,6 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
     public void beforeAddSave(T vo, HttpServletRequest request) {
 
     }
-
 
 
     /**
@@ -140,10 +138,11 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
     }
 
     /**
-     *  保存时自定义校验
+     * 保存时自定义校验
+     *
      * @param vo
      */
-    public void customChekSave(T vo,HttpServletRequest request) {
+    public void customChekSave(T vo, HttpServletRequest request) {
 
     }
 
@@ -226,30 +225,32 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
 
     /**
      * 获取树形结构点击接点 后的删选条件，如有需要可重新
-     * @param id 当前选中节点的id
+     *
+     * @param id    当前选中节点的id
      * @param level 当前选中节点的level，从0开始
-     * @param pId 当前选中节点的父节点id
+     * @param pId   当前选中节点的父节点id
      * @param tree
      * @return
      */
     public String getTreeHqlWhere(String id, String level, String pId, Tree tree) {
         return tree.fieldKey() + " like '" + id + "%'";
-	}
-    
+    }
+
     /**
      * 获取tree的json数据
      * Map 里面的字段有：
-     *  id 必填 节点id
-     *  name 必填 节点名称
-     *  pId 选填 所属父节点 如果顶级节点，设置为0
-     *  rId 选填 如果rId存在，id只负责和pId对应，选择后保存的值是rId
-     *  nocheck 选填 如果为false或者0，该节点不能被选中
+     * id 必填 节点id
+     * name 必填 节点名称
+     * pId 选填 所属父节点 如果顶级节点，设置为0
+     * rId 选填 如果rId存在，id只负责和pId对应，选择后保存的值是rId
+     * nocheck 选填 如果为false或者0，该节点不能被选中
+     *
      * @param request
      * @return
      */
     public List<Map<String, Object>> getTreeData(HttpServletRequest request) {
-		return new ArrayList<>();
-	}
+        return new ArrayList<>();
+    }
 
     /**
      * 导航栏显示上一个对象的名称，如有需要可重写
@@ -338,7 +339,7 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
             if (StringUtils.isBlank(vo.getPrimaryKey())) {
                 initDefaultColunm(vo, request);
             }
-            customChekSave(vo,request);
+            customChekSave(vo, request);
             // 初始化request中通过baseWhere传输的属性，无论新增或者修改
             String baseWhere = request.getParameter("baseWhere");
             // 从新回到id=?的url中
@@ -359,8 +360,8 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
             // 将声明加密的字段，进行加密
             encodeHiddle(vo);
             //在新增保存之前
-            if(StringUtils.isBlank(vo.getPrimaryKey())) {
-            	beforeAddSave(vo, request);
+            if (StringUtils.isBlank(vo.getPrimaryKey())) {
+                beforeAddSave(vo, request);
             }
             //在编辑保存之前
             beforeEditSave(vo, request);
@@ -390,7 +391,7 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
                 idVal = "";
                 urlType = "/toShow?nrTab=true&closeNowFrame=true&id=" + vo.getPrimaryKey();
             } else if ("true".equals(request.getParameter("hideTitle"))) {
-            	return "public/close-layer";
+                return "public/close-layer";
             }
             return redirect(url + urlType + idVal);
         } catch (Exception e) {
@@ -399,11 +400,11 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
             request.setAttribute("errorMsg", getMessage(e));
             request.setAttribute("data", vo);
             request.setAttribute("数据", vo.toJson());
-            String key=vo.getPrimaryKey();
-            request.setAttribute("id",key );
+            String key = vo.getPrimaryKey();
+            request.setAttribute("id", key);
             String urlType = StringUtils.isBlank(vo.getPrimaryKey()) ? "toAdd" : "toUpdate";
 
-            String returns=forward(url + "/" + urlType);
+            String returns = forward(url + "/" + urlType);
             return returns;
         }
     }
@@ -735,58 +736,61 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
         Object data = systemDao.getEntityManager().find(voClass, (Serializable) finalId);
         return data;
     }
-    
-	/**
-	 * 跳转到查看页面 查看按钮暂时不显示
-	 * @param id
-	 * @param request
-	 * @return
-	 */
-	@AdminPageButton(name = "详情", imgChar="&#xe685;", dataType = AdminPageButton.RADIO)
-	@RequestMapping({ "/toShow" })
-	public String toShow(String id, HttpServletRequest request) {
-		return toShow(this.getClass(), id, request);
-	}
-	
-	/**
-	 * 工具方法，跳转到查看页面 查看按钮暂时不显示
-	 * @param request
-	 * @return
-	 */
-	@SuppressWarnings({ "rawtypes", "unchecked" })
-	public String toShow(Class<? extends CommonListController> class1, String id, HttpServletRequest request) {
-    	// 处理主键不是String类型的
-		Object data = getOneByIdToString(getVOClass(class1), id);
-		beforeToShow((T) data, request);
-		request.setAttribute("data", data);
-		request.setAttribute("baseUrl", ClassUtil.getRequestMappingValue(class1, true));
-		// 动态获取查看时需要的字段
-		getFormColumns(class1, request, "toShow");
-		// 加载需要特殊加载的js
-		hiddleJs(this.getClass(), request);
-		return getBaseEditJspUrl() + "/data-show";
-	}
-	
-	/**
-	 * 处理编辑页面的id，如有需求，可重写该方法
-	 * @param class1
-	 * @param id
-	 * @return
-	 */
-	public String hiddleUpdateId(Class<?> class1, String id, HttpServletRequest request){
-		SinglePage singlePageA = class1.getAnnotation(SinglePage.class);
-		if(singlePageA != null && StringUtils.isNotBlank(singlePageA.value())){
-			if("userId".equals(singlePageA.value())){
-				id = getCurUser(request.getSession()).getUserId();
-			}else if("orgId".equals(singlePageA.value())){
-				id = getCurUser(request.getSession()).getOrg().getOrgId();
-			}else{
-				id = singlePageA.value();
-			}
-		}
-		return id;
-	}
-	
+
+    /**
+     * 跳转到查看页面 查看按钮暂时不显示
+     *
+     * @param id
+     * @param request
+     * @return
+     */
+    @AdminPageButton(name = "详情", imgChar = "&#xe685;", dataType = AdminPageButton.RADIO)
+    @RequestMapping({"/toShow"})
+    public String toShow(String id, HttpServletRequest request) {
+        return toShow(this.getClass(), id, request);
+    }
+
+    /**
+     * 工具方法，跳转到查看页面 查看按钮暂时不显示
+     *
+     * @param request
+     * @return
+     */
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    public String toShow(Class<? extends CommonListController> class1, String id, HttpServletRequest request) {
+        // 处理主键不是String类型的
+        Object data = getOneByIdToString(getVOClass(class1), id);
+        beforeToShow((T) data, request);
+        request.setAttribute("data", data);
+        request.setAttribute("baseUrl", ClassUtil.getRequestMappingValue(class1, true));
+        // 动态获取查看时需要的字段
+        getFormColumns(class1, request, "toShow");
+        // 加载需要特殊加载的js
+        hiddleJs(this.getClass(), request);
+        return getBaseEditJspUrl() + "/data-show";
+    }
+
+    /**
+     * 处理编辑页面的id，如有需求，可重写该方法
+     *
+     * @param class1
+     * @param id
+     * @return
+     */
+    public String hiddleUpdateId(Class<?> class1, String id, HttpServletRequest request) {
+        SinglePage singlePageA = class1.getAnnotation(SinglePage.class);
+        if (singlePageA != null && StringUtils.isNotBlank(singlePageA.value())) {
+            if ("userId".equals(singlePageA.value())) {
+                id = getCurUser(request.getSession()).getUserId();
+            } else if ("orgId".equals(singlePageA.value())) {
+                id = getCurUser(request.getSession()).getOrg().getOrgId();
+            } else {
+                id = singlePageA.value();
+            }
+        }
+        return id;
+    }
+
     /**
      * 跳转到新增页面
      *
@@ -995,22 +999,22 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
     @RequestMapping({"/getTree"})
     public String getTree(HttpServletRequest request) {
         Tree treeAn = getClass().getAnnotation(Tree.class);
-    	// 获取要跳转的list的url
+        // 获取要跳转的list的url
         request.setAttribute("url", request.getRequestURI().replace("/getTree", "/getAll"));
         // 获取tree的json数据
         List<Map<String, Object>> treeList = null;
-        if(treeAn.methodCustom()) {
-        	treeList = getTreeData(request);
-        }else if(StringUtils.isNotBlank(treeAn.selectCode())){
-			DictkindVO dictkind = DictinfoUtils.getDictkind(treeAn.selectCode(), request);
-			treeList = dictkind.getTreeJsonList();
-        }else {
-        	treeList = systemDao.getJdbcTemplate().queryForList(treeAn.sql());
+        if (treeAn.methodCustom()) {
+            treeList = getTreeData(request);
+        } else if (StringUtils.isNotBlank(treeAn.selectCode())) {
+            DictkindVO dictkind = DictinfoUtils.getDictkind(treeAn.selectCode(), request);
+            treeList = dictkind.getTreeJsonList();
+        } else {
+            treeList = systemDao.getJdbcTemplate().queryForList(treeAn.sql());
         }
         request.setAttribute("msunTreeData", getJsonList(treeList));
         request.setAttribute("msunTreeJsonKey", treeAn.jsonKey());
-        if(treeList != null && !treeList.isEmpty()) {
-        	request.setAttribute("msunTreeData_firstId", treeList.get(0).get("id"));
+        if (treeList != null && !treeList.isEmpty()) {
+            request.setAttribute("msunTreeData_firstId", treeList.get(0).get("id"));
         }
         return getBaseListJspUrl() + "/data-tree";
     }
@@ -1059,6 +1063,10 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
             // 获取页面刷新时间
             AdminPage apAn = class1.getAnnotation(AdminPage.class);
             if (apAn != null) {
+                //自定义页面
+                if (StringUtils.isNotBlank(apAn.openUrl())){
+                    return apAn.openUrl();
+                }
                 request.setAttribute("refreshTime", apAn.refreshTime());
             }
             // 获取基础url
@@ -1086,7 +1094,8 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
             log.error(e.getMessage(), e);
         }
         String inEdit = "true".equals(request.getParameter("inEdit")) ? "-in-edit" : "";
-        return getBaseListJspUrl() + "/data-list" + inEdit;
+        String a = getBaseListJspUrl() + "/data-list" + inEdit;
+        return a;
     }
 
     /**
@@ -1152,8 +1161,8 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
         AdminPage apAn = class1.getAnnotation(AdminPage.class);
         Tree treeAn = class1.getAnnotation(Tree.class);
         String url = request.getRequestURI();
-        if(treeAn != null) {
-        	url= url.replace("/getAll", "/getTree");
+        if (treeAn != null) {
+            url = url.replace("/getAll", "/getTree");
         }
         String className = (String) request.getAttribute("APP_BASE_CLASS_NAME");
         if (StringUtils.isNotBlank(className)) {
@@ -1177,10 +1186,10 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
         // 处理AdminPageButton 被隐藏的情况
         List<AdminPageButtonVO> rePageButtons = new ArrayList<>();
         for (AdminPageButtonVO apb : pageButtons) {
-        	if(!apb.isHide()) {
-        		rePageButtons.add(apb);
-        	}
-		}
+            if (!apb.isHide()) {
+                rePageButtons.add(apb);
+            }
+        }
         return rePageButtons;
     }
 
@@ -1299,11 +1308,11 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
         }
         Tree tree = class1.getAnnotation(Tree.class);
         if (tree != null) {
-        	String treeHqlWhere = getTreeHqlWhere(request.getParameter("msun_tree_id"), 
-            		request.getParameter("msun_tree_level"), request.getParameter("msun_tree_pId"), tree);
-        	if(StringUtils.isNotBlank(treeHqlWhere)) {
-        		hql += " and " + treeHqlWhere;
-        	}
+            String treeHqlWhere = getTreeHqlWhere(request.getParameter("msun_tree_id"),
+                    request.getParameter("msun_tree_level"), request.getParameter("msun_tree_pId"), tree);
+            if (StringUtils.isNotBlank(treeHqlWhere)) {
+                hql += " and " + treeHqlWhere;
+            }
         }
         // 添加树形结构的数据过滤
         if ("1".equals(request.getParameter("isDownLoad"))) {
@@ -1321,7 +1330,7 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
         return hql;
     }
 
-	/**
+    /**
      * 获得orderby的hql语句
      *
      * @param class1
@@ -1562,7 +1571,7 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
         if ((seA != null && StringUtils.isNotBlank(seA.selectCode()))
                 || (tcA != null && StringUtils.isNotBlank(tcA.selectCode()))
                 || (foJ != null && StringUtils.isNotBlank(foJ.selectCode()))
-        ) {
+                ) {
             vo.setType("select");
         } else if (foJ != null && StringUtils.isNotBlank(foJ.type())) {
             vo.setType(foJ.type());
@@ -1594,9 +1603,9 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
             vo.setExportColumn(tcA.exportColumn());
             vo.setExport(tcA.export());
         }
-        
+
         // 如果foJ的picPath存在
-        if(foJ != null && StringUtils.isNotBlank(foJ.picPath())) {
+        if (foJ != null && StringUtils.isNotBlank(foJ.picPath())) {
             vo.setImg(true);
         }
 
@@ -1703,10 +1712,11 @@ public class CommonListController<T extends AbstractValueObject> extends BaseAbs
 
     /**
      * 返回 自己的基础的 jsp路径
+     *
      * @return
      */
     public String getSelfBaseJspUrl() {
-    	FileConfig anno = this.getClass().getAnnotation(FileConfig.class);
+        FileConfig anno = this.getClass().getAnnotation(FileConfig.class);
         if (anno != null && StringUtils.isNotBlank(anno.jspBaseUrl())) {
             return anno.jspBaseUrl();
         }

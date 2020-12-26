@@ -30,7 +30,6 @@ D:\jadmin\src\main\java\com\jadmin\modules\util\quartz\QuartzUtil.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageSearchColumnVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageSearchModeVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\base\BaseAbstractController.java
-D:\jadmin\src\main\java\com\jadmin\controller\admin\base\productManagement\SpecificationsAdminController.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\MethodLog.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\LogController.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\ConfigUtil.java
@@ -116,6 +115,7 @@ D:\jadmin\src\main\java\com\jadmin\modules\itf\GeneralOperatUtils.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\Tree.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\quartz\QuartzBean.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\VOUtil.java
+D:\jadmin\src\main\java\com\jadmin\controller\admin\base\productManagement\DpecificationsAdminController.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\SysTaskLogController.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\ReportCol.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\dictkind\CommonDictinfosController.java
