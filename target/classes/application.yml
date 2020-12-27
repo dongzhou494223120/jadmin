@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://hulili.love:3306/hmdq?characterEncoding=utf8
     username: hmdq
-    password: Q0UD#hvdaOYdV&84SSgDUyk&SkDodzJx
+    password: Dj344108150!
 
 #    url: jdbc:mysql://192.168.1.231:3306/jadmin?characterEncoding=utf8
 #    username: root

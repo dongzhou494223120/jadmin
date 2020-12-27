@@ -140,7 +140,7 @@
                 ,shade: 0.01
             });
             $.ajax({
-                url: "/downloadQRcodee",
+                url: "/qrCode/downloadQRcode",
                 type: 'post',
                 dataType: 'json',
                 data: {

@@ -133,7 +133,7 @@ public class WeChatUtil {
 
         ButtonVO vo31 = new ButtonVO();
         vo31.setType("view");
-        vo31.setUrl("http://yichanghuimai.nat300.top/admin");
+        vo31.setUrl("http://81.68.178.210:9001/User/Login");
         vo31.setName("用户中心");
         vo31.setKey("2343234");
         list.add(vo31);

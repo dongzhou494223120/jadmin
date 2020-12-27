@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import com.jadmin.modules.itf.GeneralOperatUtils;
 import com.jadmin.vo.entity.base.*;
 import org.apache.commons.lang.StringUtils;
+import org.apache.poi.ss.formula.functions.T;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -109,7 +110,7 @@ public class SystemDao extends BaseBusinessDao {
     @SuppressWarnings("unchecked")
     public UserVO login(String account, String password) {
         log.info("用户尝试登陆：" + account);
-        password = Encode.encode(password, true);
+        password = Encode.encode(password, false);
         Query query = getEntityManager().createQuery(" from UserVO where account = ? and billStatus = 1 and isDelete = 0 ");
         query.setParameter(0, account);
         List<UserVO> list = query.getResultList();
@@ -242,4 +243,6 @@ public class SystemDao extends BaseBusinessDao {
         String hql = " from MemorandumVO where operatorId = '" + userId + "' and isDelete = 0 order by operateTime desc ";
         return queryPageList(hql, first, count);
     }
+
+
 }
