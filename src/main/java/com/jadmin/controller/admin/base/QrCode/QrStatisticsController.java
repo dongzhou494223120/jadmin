@@ -35,21 +35,22 @@ public class QrStatisticsController extends CommonListController<RQcodeStatistic
 
 
 
-    @FormColunm(value = "分销商姓名")
+    @FormColunm(value = "分销商", selectCode = "REFERENCES",edit = "false")
     @TableColumn
-    private String distributorName;
+    private String distributorId;
 
     @FormColunm(value = "二维码生成数量")
     @TableColumn
     private Integer rqGenerateNumber;
 
-    @FormColunm(value = "系列名称")
-    @TableColumn
-    private String seriesName;
+//    @FormColunm(value = "系列名称")
+//    @TableColumn
+//    private String seriesName;
 
     @FormColunm(value = "总积分")
     @TableColumn
     private String totalPoints;
+
 
 
     @FormColunm(value = "操作时间")
@@ -58,7 +59,11 @@ public class QrStatisticsController extends CommonListController<RQcodeStatistic
 
     @FormColunm(value = "操作人")
     @TableColumn
-    private String operatorId;//操作人',
+    private String operatorId;
+
+    @FormColunm(value = "描述")
+    @TableColumn
+    private String memo;
 
 
 

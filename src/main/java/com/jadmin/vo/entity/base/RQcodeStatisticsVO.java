@@ -1,5 +1,6 @@
 package com.jadmin.vo.entity.base;
 
+import com.jadmin.modules.annotation.column.FormColunm;
 import com.jadmin.vo.fundation.base.AbstractValueObject;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
@@ -39,6 +40,8 @@ public class RQcodeStatisticsVO extends AbstractValueObject {
     private String operatorId;//操作人',
     @Column(length = 1)
     private String isDelete;//是否删除'
+    @FormColunm(value = "描述", type = "textarea", length = 512, required = false)
+    public String memo;
 
     @Override
     public String getPrimaryKey() {

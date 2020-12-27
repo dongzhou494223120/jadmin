@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import com.jadmin.modules.exception.BusinessException;
 import com.jadmin.modules.itf.GeneralOperatUtils;
 import com.jadmin.vo.entity.base.*;
+import com.jadmin.vo.enumtype.DeleteEnum;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -252,31 +253,28 @@ public class CommonController extends BaseAbstractController {
         }
         String operateTime = GeneralOperatUtils.getCurDate();
         //查询今天有没有生成的
-        System.out.println();
-        Query query = systemDao.getEntityManager().createQuery("from RQcodeStatisticsVO where distributorId = ?  and operateTime=? and isDelete = 0 ");
-        List<RQcodeStatisticsVO> lis = (List<RQcodeStatisticsVO>)systemDao.getCacheDataByHSql("from RQcodeStatisticsVO where distributorId ='id'  and operateTime='2020-12-27' and isDelete = 0 ", "hql");
-
-        query.setParameter(0, vo.getRoleId());
-        query.setParameter(1, operateTime);
-        List<RQcodeStatisticsVO> list = query.getResultList();
+        String  hql="from RQcodeStatisticsVO where distributorId ='"+vo.getRoleId()+"'  and operateTime='"+operateTime+"' and isDelete = 0 ";
+        List<RQcodeStatisticsVO> list = (List<RQcodeStatisticsVO>)systemDao.getCacheDataByHSql(hql, "hql");
         if (list.isEmpty()) {
             RQcodeStatisticsVO rqVo = new RQcodeStatisticsVO();
             rqVo.setOperatorId(userName);
             rqVo.setOperateTime(GeneralOperatUtils.getCurDate());
-            rqVo.setIsDelete("0");
-            rqVo.setSeriesName("系列");
+            rqVo.setIsDelete(DeleteEnum.N.getCode());
+//            rqVo.setSeriesName("系列");
+
             rqVo.setTotalPoints(vo.getIntegral());
-            rqVo.setDistributorName("分销商名字");
-            rqVo.setDistributorId("id");
+//            rqVo.setDistributorName("分销商名字");
+            rqVo.setDistributorId(vo.getRoleId());
             rqVo.setRqGenerateNumber(vo.getCount());
+            rqVo.setMemo(vo.getMs());
             systemDao.saveOrUpdate(rqVo);
         } else {
             RQcodeStatisticsVO oldVO = list.get(0);
-            vo.getSeriesId();
-//    if(){
-//
-//    }
-//            oldVO.getSeriesName()
+            oldVO.setId(oldVO.getId());
+            //积分相加
+            oldVO.setTotalPoints(oldVO.getTotalPoints()+vo.getIntegral());
+            oldVO.setRqGenerateNumber(oldVO.getRqGenerateNumber()+vo.getCount());
+            oldVO.setMemo(vo.getMs());
             systemDao.saveOrUpdate(oldVO);
         }
 
