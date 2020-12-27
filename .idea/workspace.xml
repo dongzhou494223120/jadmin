@@ -7,117 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05d5412-2735-42d8-9b0c-1b86a2678dd0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/QrCodeVO.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/QrCode/QrCreateController.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/QrCode/QrCreateController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/qrCode/data-list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/qrCode/data-list.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/WebApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/WebApplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/MainsiteErrorController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/MainsiteErrorController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/CommonController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/CommonController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/NoNeedLoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/NoNeedLoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/MemorandumController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/MemorandumController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskLogController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskLogController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos2Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos2Controller.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos3Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos3Controller.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictkindController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictkindController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/OrgController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/OrgController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/dao/SystemDao.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/dao/SystemDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/BaseAbstractController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/BaseAbstractController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CommonListController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CommonListController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CustomSecurityInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CustomSecurityInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/aop/InitPageNameService.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/aop/InitPageNameService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/aop/JsonExceptionHadler.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/aop/JsonExceptionHadler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/aop/LogService.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/aop/LogService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/start/StartBusiness$1.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/start/StartBusiness$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/start/StartBusiness.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/start/StartBusiness.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/ConfigTagValue.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/ConfigTagValue.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/DateTag.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/DateTag.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/DivTag.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/DivTag.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTableTag.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTableTag.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTagValue.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTagValue.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTreeJson.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTreeJson.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/SelectTag.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/SelectTag.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/SelectTagValue.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/SelectTagValue.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/dao/base/BaseBusinessDao$1.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/dao/base/BaseBusinessDao$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/dao/base/BaseBusinessDao$2.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/dao/base/BaseBusinessDao$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/dao/base/BaseBusinessDao.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/dao/base/BaseBusinessDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/exception/AlertBusinessException.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/exception/AlertBusinessException.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/exception/BusinessException.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/exception/BusinessException.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/itf/GeneralOperatUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/itf/GeneralOperatUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils$1.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils$2.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils$3.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils$4.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/AdminPageUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ClassUtil$1.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ClassUtil$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ClassUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ClassUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ConfigUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ConfigUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/DictinfoUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/DictinfoUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/SpringContext.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/SpringContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/StartCacheUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/StartCacheUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/StaticPageUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/StaticPageUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/VOUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/VOUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/encode/DES.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/encode/DES.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/encode/Encode.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/encode/Encode.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/JobFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/JobFactory.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/MyTriggerListener.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/MyTriggerListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/QuartzUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/QuartzUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/SchedulerUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/SchedulerUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/quartz/HelloJob.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/quartz/HelloJob.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/util/DateTimeUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/util/DateTimeUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/util/JsonUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/util/JsonUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/util/UserAgentUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/util/UserAgentUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/util/conn/ConnectionUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/util/conn/ConnectionUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/util/conn/UrlUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/util/conn/UrlUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/util/file/ExcelUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/util/file/ExcelUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/util/file/FileList.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/util/file/FileList.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/util/file/FileUtil$1.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/util/file/FileUtil$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/util/file/FileUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/util/file/FileUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/CacheVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/CacheVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/CategoryAdminVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/CategoryAdminVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/ConfigVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/ConfigVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/DictinfoVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/DictinfoVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/DictkindVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/DictkindVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/LogVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/LogVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/MemorandumVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/MemorandumVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/OrgVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/OrgVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/RoleModuleVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/RoleModuleVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/RoleVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/RoleVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/SysTaskLogVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/SysTaskLogVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/SysTaskVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/SysTaskVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/UserVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/base/UserVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/ref/OrgRefVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/ref/OrgRefVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/enumtype/AdminPageMenu.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/enumtype/AdminPageMenu.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/enumtype/JavaType.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/enumtype/JavaType.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/enumtype/YesNo.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/enumtype/YesNo.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/AbstractSimple.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/AbstractSimple.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/AbstractValueObject.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/AbstractValueObject.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/JAdminProperties.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/JAdminProperties.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/QueryArgVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/QueryArgVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageButtonVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageButtonVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageFormColumnVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageFormColumnVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageLogVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageLogVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageMenuVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageMenuVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageSearch2VO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageSearch2VO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageSearchColumnVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageSearchColumnVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageSearchModeVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageSearchModeVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageSelectShowVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageSelectShowVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageTableColumnVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageTableColumnVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/AdminPageVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/ButtonTablePageVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/ButtonTablePageVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/ReportCol.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/ReportCol.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/ReportPage.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/controller/ReportPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/tool/BeanProperty.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/tool/BeanProperty.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/tool/ClientENV.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/tool/ClientENV.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/tool/Commons.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/tool/Commons.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/tool/Page.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/tool/Page.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,7 +62,7 @@
       <file leaf-file-name="CommonController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
+            <state relative-caret-position="83">
               <caret line="235" column="7" lean-forward="false" selection-start-line="235" selection-start-column="7" selection-end-line="236" selection-end-column="7" />
               <folding>
                 <marker date="1608997534067" expanded="true" signature="4533:4600" ph="update sys_user... " />
@@ -432,146 +322,6 @@
             <path>
               <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="QrCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-              <item name="qrCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
@@ -987,7 +737,7 @@
       <workItem from="1608714894201" duration="3630000" />
       <workItem from="1608772130720" duration="2670000" />
       <workItem from="1608884963200" duration="1075000" />
-      <workItem from="1608956200717" duration="30271000" />
+      <workItem from="1608956200717" duration="30347000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1608458965711</created>
@@ -1108,7 +858,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608983252424</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="添加">
+      <created>1608997853829</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608997853829</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1117,7 +874,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185916000" />
+    <option name="totallyTimeSpent" value="185992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1142,7 +899,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49447078" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3399751" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32004982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5591532" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21544209" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1150,7 +907,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10336239" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275218" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275218" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5055292" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1974,7 +1731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/CommonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
+        <state relative-caret-position="83">
           <caret line="235" column="7" lean-forward="false" selection-start-line="235" selection-start-column="7" selection-end-line="236" selection-end-column="7" />
           <folding>
             <marker date="1608997534067" expanded="true" signature="4533:4600" ph="update sys_user... " />
