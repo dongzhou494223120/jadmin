@@ -16,6 +16,7 @@ D:\jadmin\src\main\java\com\jadmin\modules\annotation\list\ButtonTablePage.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\ConfigController.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\column\UniqueColunm.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\SelectTag.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\base\QrCodeVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\NoNeedLogin.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\base\JAdminProperties.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\SysTaskController.java
@@ -33,6 +34,7 @@ D:\jadmin\src\main\java\com\jadmin\modules\controller\base\BaseAbstractControlle
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\MethodLog.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\LogController.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\ConfigUtil.java
+D:\jadmin\src\main\java\com\jadmin\vo\enumtype\DeleteEnum.java
 D:\jadmin\src\main\java\com\jadmin\vo\enumtype\YesNo.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\UserVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\annotation\quartz\DJob.java
@@ -79,6 +81,7 @@ D:\jadmin\src\main\java\com\jadmin\vo\entity\WeChatVO\WeChatOutMsgDTO.java
 D:\jadmin\src\main\java\com\jadmin\vo\entity\base\LogVO.java
 D:\jadmin\src\main\java\com\jadmin\modules\controller\tag\DivTag.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\StaticPageUtils.java
+D:\jadmin\src\main\java\com\jadmin\vo\entity\base\RQcodeStatisticsVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageVO.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\AdminPageLogVO.java
 D:\jadmin\src\main\java\com\jadmin\controller\admin\base\system\dictkind\DictKindDictinfosController.java
@@ -98,6 +101,7 @@ D:\jadmin\src\main\java\com\jadmin\modules\annotation\PageStatic.java
 D:\jadmin\src\main\java\com\jadmin\util\UserAgentUtil.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\quartz\JobFactory.java
 D:\jadmin\src\main\java\com\jadmin\vo\fundation\controller\ButtonTablePageVO.java
+D:\jadmin\src\main\java\com\jadmin\controller\admin\base\QrCode\QrStatisticsController.java
 D:\jadmin\src\main\java\com\jadmin\modules\itf\RunnableWithReturn.java
 D:\jadmin\src\main\java\com\jadmin\modules\util\ClassUtil.java
 D:\jadmin\src\main\java\com\jadmin\quartz\HelloJob.java

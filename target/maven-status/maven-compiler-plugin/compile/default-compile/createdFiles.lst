@@ -38,6 +38,7 @@ com\jadmin\util\file\FileUtil.class
 com\jadmin\vo\fundation\controller\AdminPageLogVO.class
 com\jadmin\controller\MainsiteErrorController.class
 com\jadmin\controller\admin\CommonController.class
+com\jadmin\vo\entity\base\QrCodeVO.class
 com\jadmin\controller\admin\base\system\SysTaskLogController.class
 com\jadmin\modules\util\ClassUtil.class
 com\jadmin\vo\entity\base\SysTaskVO.class
@@ -48,6 +49,7 @@ com\jadmin\controller\admin\base\productManagement\ProductAdminController.class
 com\jadmin\modules\exception\BusinessException.class
 com\jadmin\dao\SystemDao.class
 com\jadmin\vo\entity\WeChatVO\WeChatResultDTO.class
+com\jadmin\util\QRCodeUtil$1.class
 com\jadmin\vo\fundation\base\AbstractValueObject.class
 com\jadmin\controller\admin\base\userCenter\UserController.class
 com\jadmin\vo\entity\WeChatVO\menu\ButtonVO.class
@@ -85,6 +87,7 @@ com\jadmin\vo\fundation\controller\AdminPageFormColumnVO.class
 com\jadmin\modules\controller\start\StartBusiness$1.class
 com\jadmin\controller\admin\base\system\dictkind\DictKindDictinfos3Controller.class
 com\jadmin\modules\util\AdminPageUtils$2.class
+com\jadmin\vo\entity\base\RQcodeStatisticsVO.class
 com\jadmin\controller\admin\base\userCenter\OrgController.class
 com\jadmin\vo\fundation\base\JAdminProperties.class
 com\jadmin\modules\annotation\list\FileConfig.class
@@ -92,6 +95,7 @@ com\jadmin\controller\admin\base\QrCode\QrCreateController.class
 com\jadmin\vo\enumtype\Regular.class
 com\jadmin\util\conn\HttpUtil.class
 com\jadmin\modules\annotation\list\SinglePage.class
+com\jadmin\controller\admin\base\QrCode\QrStatisticsController.class
 com\jadmin\controller\admin\base\system\LogController.class
 com\jadmin\modules\annotation\column\SearchColumn.class
 com\jadmin\modules\util\quartz\QuartzBean.class
@@ -151,6 +155,7 @@ com\jadmin\vo\entity\base\CategoryAdminVO.class
 com\jadmin\vo\fundation\controller\ReportPage.class
 com\jadmin\modules\annotation\list\SearchMode.class
 com\jadmin\util\QRCodeUtil.class
+com\jadmin\vo\enumtype\DeleteEnum.class
 com\jadmin\modules\util\StaticPageUtils.class
 com\jadmin\modules\annotation\list\AdminPageButton.class
 com\jadmin\vo\fundation\tool\ClientENV.class

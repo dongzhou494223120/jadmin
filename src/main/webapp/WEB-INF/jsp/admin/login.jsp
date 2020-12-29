@@ -42,9 +42,9 @@
 						onclick="login()" /></li>
 					<li style="margin-bottom: 0px;">
 						<div>
-							系统初始密码为
+							<%--系统初始密码为--%>
 							<html:configValue code="DEF_PASSWORD" />
-							，第一次登陆后，请修改密码！
+							<%--，第一次登陆后，请修改密码！--%>
 						</div>
 					</li>
 				</ul>
