@@ -8,39 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c05d5412-2735-42d8-9b0c-1b86a2678dd0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/CommonController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/CommonController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/NoNeedLoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/NoNeedLoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/MemorandumController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/MemorandumController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskLogController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/SysTaskLogController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos2Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos2Controller.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos3Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictKindDictinfos3Controller.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictkindController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/system/dictkind/DictkindController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/OrgController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/OrgController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/RoleController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/controller/admin/base/userCenter/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/dao/SystemDao.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/dao/SystemDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/BaseAbstractController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/BaseAbstractController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CommonListController.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CommonListController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CustomSecurityInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/base/CustomSecurityInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/ConfigTagValue.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/ConfigTagValue.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTableTag.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTableTag.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTreeJson.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/GetTreeJson.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/SelectTag.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/SelectTag.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/SelectTagValue.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/controller/tag/SelectTagValue.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ClassUtil$1.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ClassUtil$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ClassUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/ClassUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/DictinfoUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/DictinfoUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/StartCacheUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/StartCacheUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/VOUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/VOUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/MyTriggerListener.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/MyTriggerListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/QuartzUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/QuartzUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/SchedulerUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/modules/util/quartz/SchedulerUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/CacheVO.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/entity/CacheVO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/AbstractValueObject.class" afterPath="$PROJECT_DIR$/target/classes/com/jadmin/vo/fundation/base/AbstractValueObject.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/doc/hmdq.sql" afterPath="$PROJECT_DIR$/doc/hmdq.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +43,7 @@
       <file leaf-file-name="QrCreateController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/QrCode/QrCreateController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="990">
               <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding />
             </state>
@@ -85,73 +53,19 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/wmobile/admin/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1008">
+            <state relative-caret-position="4059">
               <caret line="123" column="40" lean-forward="false" selection-start-line="123" selection-start-column="40" selection-end-line="123" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+            <state relative-caret-position="4620">
+              <caret line="140" column="41" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="41" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/specif/data-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="95" column="62" lean-forward="false" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-edit.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/business/specif/data-edit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="115" column="11" lean-forward="false" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="org.tld" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/org.tld">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigTagValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/controller/tag/ConfigTagValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/dao/SystemDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="150" column="24" lean-forward="true" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
-              <folding>
-                <marker date="1609210704448" expanded="true" signature="1469:1574" ph="update sys_user... " />
-                <marker date="1609210704448" expanded="true" signature="1803:1904" ph="update sys_statistics... " />
-                <marker date="1609210704448" expanded="true" signature="6241:6293" ph="SELECT MAX(C... SYS_ORG" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -159,8 +73,8 @@
       <file leaf-file-name="QRCodeUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/util/QRCodeUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="414">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,8 +83,48 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
+            <state relative-caret-position="33">
               <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvnw.cmd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-528">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvnw" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvnw">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-330">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hmdq.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/hmdq.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="4447" column="0" lean-forward="false" selection-start-line="4447" selection-start-column="0" selection-end-line="4447" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jadmin.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/jadmin.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -246,7 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/MemorandumVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/OrgVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/ProductAdminVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/vo/entity/base/RoleModuleVO.java" />
@@ -297,6 +250,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/util/QRCodeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/jadmin/dao/SystemDao.java" />
+        <option value="$PROJECT_DIR$/doc/hmdq.sql" />
       </list>
     </option>
   </component>
@@ -356,8 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -368,14 +320,16 @@
             <path>
               <item name="jadmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -783,6 +737,7 @@
       <workItem from="1609064111057" duration="4770000" />
       <workItem from="1609124153923" duration="1776000" />
       <workItem from="1609208518087" duration="2206000" />
+      <workItem from="1612316761772" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1608458965711</created>
@@ -947,7 +902,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206953000" />
+    <option name="totallyTimeSpent" value="207758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -964,13 +919,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.498132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.49447078" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49447078" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49447078" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23785803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5591532" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -979,14 +934,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34495643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32503113" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32503113" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36285096" sideWeight="0.49253732" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36285096" sideWeight="0.49253732" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23218143" sideWeight="0.5074627" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -994,7 +948,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21544209" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5055292" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5055292" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1035,6 +990,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1281,36 +1246,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/vo/fundation/base/QueryArgVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/userCenter/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="145" column="17" lean-forward="false" selection-start-line="143" selection-start-column="15" selection-end-line="145" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/DictinfoUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="92" column="59" lean-forward="false" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/modules/util/encode/Encode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/NoNeedLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1338,7 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1876">
           <caret line="291" column="57" lean-forward="false" selection-start-line="291" selection-start-column="57" selection-end-line="291" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,7 +1417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1522,7 +1455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1530,7 +1462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
           <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1571,8 +1502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/util/QRCodeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="414">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1584,17 +1515,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jadmin/controller/admin/base/QrCode/QrCreateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="990">
           <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding />
         </state>
@@ -1602,7 +1525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/wmobile/admin/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
+        <state relative-caret-position="4059">
           <caret line="123" column="40" lean-forward="false" selection-start-line="123" selection-start-column="40" selection-end-line="123" selection-end-column="40" />
           <folding />
         </state>
@@ -1620,9 +1543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <marker date="1608447684038" expanded="true" signature="472:496" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1630,7 +1550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-892">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1638,7 +1557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="95" column="62" lean-forward="false" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1646,7 +1564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="115" column="11" lean-forward="false" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1654,7 +1571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1672,8 +1588,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        <state relative-caret-position="4620">
+          <caret line="140" column="41" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/jadmin.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/hmdq.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="4447" column="0" lean-forward="false" selection-start-line="4447" selection-start-column="0" selection-end-line="4447" selection-end-column="0" />
           <folding />
         </state>
       </provider>
